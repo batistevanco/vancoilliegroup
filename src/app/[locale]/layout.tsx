@@ -1,19 +1,38 @@
-import type { Metadata } from "next";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
-import {getTranslations} from "next-intl/server";
-import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
-import GroupFooter from "@/components/GroupFooter";
+import type {Metadata} from "next";
+import {hasLocale, NextIntlClientProvider} from "next-intl";
+import {getMessages} from "next-intl/server";
+import {notFound} from "next/navigation";
+import {routing} from "@/i18n/routing";
+import {siteUrl} from "@/lib/seo";
+import {AnalyticsConsent} from "@/components/AnalyticsConsent";
 import "./globals.css";
 
-export async function generateMetadata({params}:{params:Promise<{locale:string}>}):Promise<Metadata>{
-  const {locale}=await params; const t=await getTranslations({locale,namespace:"Hero"});
-  const url="https://vancoillie.group";
-  return {metadataBase:new URL(url),title:{default:"Vancoillie Group",template:"%s · Vancoillie Group"},description:t("subtitle"),alternates:{canonical:`/${locale}`,languages:{nl:"/nl",en:"/en","x-default":"/nl"}},openGraph:{type:"website",siteName:"Vancoillie Group",title:"Vancoillie Group",description:t("subtitle"),locale:locale==="nl"?"nl_BE":"en_BE"},twitter:{card:"summary_large_image",title:"Vancoillie Group",description:t("subtitle")},robots:{index:true,follow:true}};
-}
+export const metadata: Metadata = {
+  title: {
+    default: "Vancoillie Group",
+    template: "%s | Vancoillie Group",
+  },
+  description: "Vancoillie Group",
+  metadataBase: new URL(siteUrl),
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      {url: "/favicon.ico", sizes: "any"},
+      {url: "/favicons/favicon-16x16.png", type: "image/png", sizes: "16x16"},
+      {url: "/favicons/favicon-32x32.png", type: "image/png", sizes: "32x32"},
+    ],
+    apple: [
+      {url: "/favicons/apple-touch-icon.png", type: "image/png", sizes: "180x180"},
+    ],
+  },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION ? {"msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION} : undefined,
+  },
+};
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({locale}));
 }
 
 export default async function LocaleLayout({
@@ -21,20 +40,55 @@ export default async function LocaleLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: Promise<{locale: string}>;
 }>) {
-  const { locale } = await params;
+  const {locale} = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${siteUrl}/#organization`,
+        name: "Vancoillie Group",
+        url: siteUrl,
+        logo: `${siteUrl}/favicons/android-chrome-512x512.png`,
+        email: "info@vancoilliegroup.be",
+        telephone: "+32499873892",
+        description: "A family of digital companies building technology that moves people forward.",
+        areaServed: ["Belgium", "Europe"],
+        sameAs: [
+          "https://www.instagram.com/vancoilliestudio/",
+          "https://github.com/batistevancoillie",
+          "https://x.com/vancstudio",
+        ],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        url: siteUrl,
+        name: "Vancoillie Group",
+        publisher: {"@id": `${siteUrl}/#organization`},
+        inLanguage: locale === "nl" ? "nl-BE" : "en",
+      },
+    ],
+  };
+
+  // Get messages for next-intl
+  const messages = await getMessages();
+
   return (
-    <html lang={locale} className="h-full antialiased">
-      <body className="min-h-full flex flex-col font-sans">
-        <a href="#main-content" className="skip-link">Skip to content</a>
-        <NextIntlClientProvider>{children}<GroupFooter /></NextIntlClientProvider>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"Organization",name:"Vancoillie Group",url:"https://vancoillie.group",address:{"@type":"PostalAddress",addressCountry:"BE"},subOrganization:[{"@type":"Organization",name:"Vancoillie IT Hulp"},{"@type":"Organization",name:"Vancoillie Studio"}]})}} />
+    <html lang={locale}>
+      <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(structuredData)}} />
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <AnalyticsConsent />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

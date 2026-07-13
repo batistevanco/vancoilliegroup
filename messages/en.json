@@ -1,15 +1,234 @@
 {
-  "Navbar": {"logo":"Vancoillie Group","menu":"Menu","close":"Close","language":"Language","links":{"group":"Group","companies":"Companies","capabilities":"Capabilities","work":"Work","vision":"Vision","contact":"Contact"},"cta":"Get started"},
-  "Hero": {"badge":"Vancoillie IT Hulp & Studio, now under one roof","titleLine1":"Digital growth,","titleLine2":"without borders","subtitle":"Vancoillie Group brings IT expertise and creative studio services together under one brand, ready for the international market.","cta":"Get started"},
-  "Intro": {"eyebrow":"One group. Multiple directions.","title":"Technology that moves people and businesses forward.","body":"Vancoillie Group connects personal IT support, digital product development and entrepreneurship in one growing ecosystem. European at heart, built for what comes next.","orbLabel":"Group","nodes":{"group":"Vancoillie Group","it":"IT Hulp","studio":"Studio","future":"What’s next"}},
-  "Companies": {"eyebrow":"Our ecosystem","title":"Different companies. One quality standard.","description":"Every company has its own specialism and character, strengthened by shared technology, design expertise and long-term thinking.","it":{"index":"01","name":"Vancoillie IT Hulp","label":"Human technology","title":"IT that simply works.","body":"Personal support at home and remotely for devices, Wi-Fi, networks and everything digital that should feel easier.","tags":"Support|Networks|Hardware|Remote help","cta":"Discover IT Hulp"},"studio":{"index":"02","name":"Vancoillie Studio","label":"Digital products","title":"From ambition to working product.","body":"Websites, apps, software and automation designed as clear, scalable experiences for an international digital world.","tags":"Web|Apps|Software|Product design","cta":"Discover Studio"}},
-  "Capabilities": {"eyebrow":"Combined capabilities","title":"From the network to the product built on top.","description":"Our disciplines are not isolated. They form one technical chain: strategy, design, development, infrastructure and lasting support.","items":{"strategy":"Product strategy","web":"Web experiences","software":"Software development","mobile":"Mobile applications","cloud":"Cloud & infrastructure","network":"Networks & connectivity","automation":"Automation","support":"Technical support"}},
-  "Philosophy": {"eyebrow":"What we believe","title":"Progress only matters when it remains human.","statements":{"simple":"Simplicity over unnecessary complexity.","quality":"Quality over volume.","human":"Personal service, powered by scalable technology.","secure":"Privacy, security and reliability from the first design.","long":"Built for real people and the long term."}},
-  "Innovation": {"eyebrow":"Beyond today","title":"We do not just build services. We build the system for future ideas.","body":"New software products, mobile experiences, platforms and ventures can emerge from the same shared core — considered, modular and ready to grow internationally.","labels":{"core":"Group core","products":"Products","platforms":"Platforms","ventures":"Ventures","experiences":"Experiences"},"cta":"Explore our vision"},
-  "Work": {"eyebrow":"Selected directions","title":"Work that makes technology tangible.","description":"An extensible showcase for our own products and selected digital trajectories.","items":{"support":{"title":"Connected Support","company":"Vancoillie IT Hulp","category":"Service experience","year":"Active","description":"An accessible support flow connecting local assistance with secure remote support.","tech":"Support systems|Connectivity|Service design"},"platform":{"title":"Digital Product Systems","company":"Vancoillie Studio","category":"Product development","year":"In development","description":"Modular digital foundations for websites, applications and future software products.","tech":"Next.js|TypeScript|Product design"}},"cta":"Discuss a project"},
-  "Metrics": {"eyebrow":"Growing ecosystem","items":{"companies":{"value":"2","label":"active companies"},"languages":{"value":"2","label":"available languages"},"base":{"value":"BE","label":"European home base"},"scope":{"value":"∞","label":"room for what follows"}}},
-  "International": {"eyebrow":"Belgium → beyond","title":"European roots. International ambition.","body":"We build from Belgium for people, businesses and digital markets without artificial borders. Not by pretending to be everywhere, but by making products and systems internationally usable from day one.","origin":"Belgium","reach":"Internationally ready","languages":"NL / EN"},
-  "CTA": {"eyebrow":"The next step","title":"Let’s build what comes next.","body":"A digital product, reliable IT support or a group partnership? Choose the route that fits.","primary":"Start a conversation","studio":"Visit Studio","it":"Visit IT Hulp"},
-  "Footer": {"tagline":"A future-focused technology group from Belgium, built around human service and digital products.","companies":"Companies","explore":"Explore","legal":"Legal","links":{"group":"Group","capabilities":"Capabilities","work":"Work","vision":"Vision","contact":"Contact","privacy":"Privacy","cookies":"Cookies","terms":"Terms"},"location":"Belgium · Europe","copyright":"Vancoillie Group. All rights reserved."},
-  "Pages": {"back":"Back home","contactTitle":"Tell us what you want to build.","contactBody":"Choose the right route and share enough context. We reply personally.","success":"Thank you. Your request is ready for server-side delivery once the form backend is connected.","submit":"Prepare request","fields":{"name":"Name","email":"Email","company":"Company (optional)","subject":"Request type","message":"Message","privacy":"I agree that my data may be used to respond to this request.","select":"Choose a subject","group":"Business partnership","studio":"Digital project","it":"IT support"},"routes":{"brands":{"title":"Our companies","body":"Discover the companies that form the Vancoillie Group ecosystem."},"about":{"title":"Long-term thinking, human technology.","body":"Vancoillie Group is building a group of dependable technology businesses and digital products from Belgium."},"services":{"title":"Capabilities that reinforce each other.","body":"From personal IT support to international digital product development."},"work":{"title":"Selected work","body":"Digital systems and experiences developed within our growing ecosystem."},"vision":{"title":"Built for what comes next.","body":"A modular foundation for new products, platforms and ventures."},"privacy":{"title":"Privacy","body":"This page will be completed when the final legal and processing information becomes available."},"cookies":{"title":"Cookies","body":"The current site uses no non-essential tracking cookies. This page remains extensible for future consent choices."},"terms":{"title":"Terms","body":"Final terms and conditions will be published here once legally approved."}}}
+  "Home": {
+    "title": "Vancoillie Group",
+    "description": "Vancoillie Group is a family of digital companies creating solutions that simplify, connect and empower people and businesses worldwide."
+  },
+  "Navbar": {
+    "navigation_label": "Main navigation",
+    "switch_language": "Switch language",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "group": "Group",
+    "companies": "Companies",
+    "it_help": "Vancoillie IT Hulp",
+    "studio": "Vancoillie Studio",
+    "expertise": "Expertise",
+    "work": "Work",
+    "insights": "Insights",
+    "contact": "Contact",
+    "get_in_touch": "Get in touch"
+  },
+  "DetailPage": {
+    "kicker": "EXPERTISE",
+    "contact": "DISCUSS YOUR PROJECT",
+    "visit_studio": "VISIT VANCOILLIE STUDIO",
+    "visit_it": "VISIT VANCOILLIE IT HULP",
+    "back": "BACK TO EXPERTISE",
+    "focus_kicker": "OUR FOCUS",
+    "outcomes_kicker": "WHAT IT DELIVERS",
+    "process_kicker": "HOW WE WORK TOGETHER",
+    "process_title": "From first conversation to a solution that keeps working.",
+    "process": {
+      "discover": {"title":"Understand","text":"We listen to your context, users and goals before making any decisions."},
+      "define": {"title":"Set direction","text":"We turn insights into a clear plan, realistic priorities and a shared picture."},
+      "build": {"title":"Make & test","text":"We work in clear steps, share progress and test what we build early."},
+      "evolve": {"title":"Keep growing","text":"After launch, we keep measuring, refining and building where it makes the biggest difference."}
+    },
+    "details": {
+      "products": {"overview":"From the first idea to a product used every day, we bring strategy, UX and technology together in one clear journey.","headline":"Digital products with real value.","focus1":"We validate your idea and translate it into a product strategy with clear priorities.","focus2":"We design intuitive user experiences people understand right away.","focus3":"We build to scale, measure what works, and keep improving together after every release.","image_alt":"AbboBuddy app on a smartphone","outcomes_title":"From idea to everyday use.","outcome1_title":"Clarity sooner","outcome1_text":"A sharp concept prevents time and budget being spent on features nobody needs.","outcome2_title":"More adoption","outcome2_text":"A logical experience lowers barriers and makes your product feel natural to use.","outcome3_title":"A foundation that grows","outcome3_text":"We build a product foundation that can handle new insights, users and ambition."},
+      "software": {"overview":"Custom software should make processes simpler, not more complex. That is why we start with the way you work and build exactly what is needed.","headline":"Software that grows with your business.","focus1":"We analyse processes and identify opportunities for automation and efficiency.","focus2":"We develop reliable applications with attention to security, integrations and performance.","focus3":"We create a maintainable codebase and a practical plan for future growth.","image_alt":"Digital task flow on a smartphone","outcomes_title":"Less manual work. More space for what matters.","outcome1_title":"Processes that fit","outcome1_text":"Custom software supports how your team really works instead of creating workarounds.","outcome2_title":"Smartly connected","outcome2_text":"We connect the right systems and data so information no longer stays fragmented.","outcome3_title":"Ready for tomorrow","outcome3_text":"A clear technical foundation keeps your business adaptable as it changes."},
+      "it": {"overview":"A strong IT environment gives your team peace of mind and continuity. We keep your infrastructure secure, organised and available.","headline":"IT that works quietly in the background.","focus1":"We bring devices, networks, cloud and security together in one manageable environment.","focus2":"We provide practical support, remotely or on site, whenever you need it.","focus3":"We proactively monitor your environment so problems are prevented before they disrupt your work.","image_alt":"Vancoillie IT Hulp portal with support requests","outcomes_title":"An environment your team can rely on.","outcome1_title":"Less disruption","outcome1_text":"Clear support and proactive management keep your team productive when it matters.","outcome2_title":"One point of contact","outcome2_text":"From device to network, you get help without searching for the right specialist.","outcome3_title":"More overview","outcome3_text":"We make your IT landscape understandable, manageable and aligned with your daily needs."},
+      "security": {"overview":"Cybersecurity is not a standalone product, but a consistent layer across technology, processes and daily habits.","headline":"Protection built in from the start.","focus1":"We make risks visible and decide together which security measures make the biggest difference.","focus2":"We strengthen access, devices, data and networks with practical controls that fit your organisation.","focus3":"We help teams work safely with clear agreements and continuous attention to change.","image_alt":"Digital Vancoillie IT Hulp workspace","outcomes_title":"Security that stays practical.","outcome1_title":"Risks in view","outcome1_text":"We help you focus on the vulnerabilities that truly matter to your organisation.","outcome2_title":"Peace of mind in daily work","outcome2_text":"Practical security protects you without making processes unnecessarily complex.","outcome3_title":"Stronger habits","outcome3_text":"Technology is only truly secure when people know what they can do and why."},
+      "data": {"overview":"Good decisions start with reliable information. We make data usable, understandable and relevant to your daily operations.","headline":"From data to direction.","focus1":"We structure the right data around the questions that truly matter to your organisation.","focus2":"We make insights visible through clear dashboards and reporting.","focus3":"We translate patterns into concrete opportunities for growth, optimisation and better decisions.","image_alt":"Financial overview in a mobile app","outcomes_title":"Insights that lead to action.","outcome1_title":"One clear picture","outcome1_text":"We bring scattered data together so you no longer decide on gut feel or isolated exports.","outcome2_title":"Less time searching","outcome2_text":"Clear dashboards make the right information accessible at the moment you need it.","outcome3_title":"Better decisions","outcome3_text":"We turn figures into patterns, opportunities and questions that move your team forward."},
+      "design": {"overview":"Strong design builds trust and makes complex things simple. We create experiences that feel logical and strengthen your brand.","headline":"Experiences that feel clear and human.","focus1":"We translate your brand, audiences and ambition into a clear creative direction.","focus2":"We develop interfaces and interactions with accessibility and ease of use in mind.","focus3":"We safeguard every detail so identity, content and technology form one whole.","image_alt":"Vancoillie IT Hulp website design","outcomes_title":"An experience that delivers on your brand.","outcome1_title":"More trust","outcome1_text":"A consistent visual language makes your offer feel credible from the first interaction.","outcome2_title":"More clarity","outcome2_text":"We structure content and interaction so visitors understand what they can do sooner.","outcome3_title":"More recognition","outcome3_text":"Every detail contributes to a brand experience that feels distinctive and coherent."}
+    }
+  },
+  "Philosophy": {
+    "kicker": "OUR PHILOSOPHY",
+    "principles_kicker": "WHAT WE STAND FOR",
+    "principles_title": "Principles that guide us.",
+    "values_title": "Values that connect us.",
+    "contact": "BUILD WITH US"
+  },
+  "Growth": {
+    "kicker": "OUR APPROACH TO GROWTH",
+    "title1": "Growth with a",
+    "title_highlight": "clear direction.",
+    "pillars_kicker": "HOW WE KEEP BUILDING",
+    "pillars_title": "Globally connected. Locally committed.",
+    "contact": "DISCUSS YOUR AMBITION"
+  },
+  "Legal": {
+    "contact": "GET IN TOUCH",
+    "home": "BACK TO HOME",
+    "privacy": {
+      "kicker": "LEGAL",
+      "title": "Privacy Policy",
+      "intro": "Vancoillie Group handles personal data with care and uses it only when needed to get in touch or improve our services.",
+      "section_title": "Your data",
+      "section_content": "If you have questions about your data or want to submit a request, please contact us through the contact page."
+    },
+    "terms": {
+      "kicker": "LEGAL",
+      "title": "Terms & Conditions",
+      "intro": "This page outlines the general principles for using the Vancoillie Group website and services.",
+      "section_title": "Questions about our terms",
+      "section_content": "For questions about a collaboration, quote, or applicable terms, please contact us directly."
+    }
+  },
+  "Hero": {
+    "tagline": "TECHNOLOGY. PEOPLE. IMPACT.",
+    "title_line1": "Building technology",
+    "title_line2": "that moves",
+    "title_highlight": "people",
+    "title_end": "forward.",
+    "description": "Vancoillie Group is a family of digital companies creating solutions that simplify, connect and empower people and businesses worldwide.",
+    "btn_discover": "Discover our companies",
+    "btn_explore": "Explore our work",
+    "scroll_text": "SCROLL TO DISCOVER",
+    "stats_label": "Group at a glance",
+    "companies_count": "2",
+    "companies_label": "Companies",
+    "vision_count": "1",
+    "vision_label": "Shared vision",
+    "possibilities_label": "Possibilities"
+  },
+  "Footer": {
+    "trusted_by": "TRUSTED BY PARTNERS:"
+  },
+  "Companies": {
+    "what_we_do": "WHAT WE DO",
+    "title1": "A group built around",
+    "title2": "technology, service,",
+    "title3": "and",
+    "title_highlight": "digital products",
+    "introduction": "Vancoillie Group brings together companies that help organizations work smarter, grow faster, and stay secure. From IT support and infrastructure to custom software, websites, apps, and digital platforms — we combine personal service with scalable innovation.",
+    "who_we_are": "WHO WE ARE",
+    "identity": "Belgium-rooted and internationally ambitious, we build lasting partnerships through trust, craftsmanship, and long-term thinking. Our teams take ownership and deliver solutions that create real, measurable value.",
+    "belgium": "Belgium based",
+    "ambition": "International ambition",
+    "it": {"name":"Vancoillie IT Hulp","description":"Personal IT support for individuals and businesses. We solve problems, strengthen your infrastructure, and keep you moving forward.","service1":"Remote help & IT support","service2":"Networks & infrastructure","service3":"Hardware & software","service4":"Security & maintenance","cta":"Discover Vancoillie IT Hulp"},
+    "studio": {"name":"Vancoillie Studio","description":"We design and build digital products that look great, work seamlessly, and drive results — websites, apps, platforms, and custom software.","service1":"Websites & e-commerce","service2":"Web & mobile apps","service3":"Custom software","service4":"Digital products","cta":"Discover Vancoillie Studio"}
+  },
+  "SelectedWork": {
+    "kicker": "SELECTED WORK",
+    "title_line1": "Solutions we’re",
+    "title_line2": "proud of.",
+    "intro": "From digital products to IT solutions, we build with precision and care. Here are some recent projects we’ve partnered on.",
+    "view_all": "VIEW ALL PROJECTS",
+    "view_case": "VIEW CASE",
+    "abbobuddy": {"label":"DIGITAL PRODUCT","title":"AbboBuddy","description":"A smart and simple way to manage all your subscriptions in one place.","image_alt":"AbboBuddy subscription app displayed on a smartphone"},
+    "website": {"label":"WEBSITES BY VANCOILLIE STUDIO","title":"A website that works for you.","description":"Vancoillie Studio designs and builds fast, professional websites that strengthen your brand and turn visitors into customers.","cta":"BUILD YOUR WEBSITE","image_alt":"A professional website by Vancoillie Studio displayed on a laptop"},
+    "news": {"label":"CONSUMER APP","title":"Vancoillie News","description":"Technology news, updates, and insights brought together in one clear mobile experience.","image_alt":"Vancoillie News app displayed on a smartphone"},
+    "metrics": {
+      "projects": {"value":"30+","label":"Projects delivered"},
+      "products": {"value":"10+","label":"Digital products"},
+      "clients": {"value":"75+","label":"Happy clients"},
+      "uptime": {"value":"99.9%","label":"Uptime & reliability"},
+      "rating": {"value":"4.9/5","label":"Rating on Google Reviews"}
+    }
+  },
+  "Capabilities": {
+    "kicker": "04 / OUR CAPABILITIES",
+    "title1": "End-to-end",
+    "title2": "solutions.",
+    "title_highlight": "Built to last.",
+    "intro": "We combine strategy, design and technology to build digital products and IT solutions that drive results and stand the test of time.",
+    "approach_link": "OUR APPROACH",
+    "learn_more": "LEARN MORE",
+    "items": {
+      "products": {"title":"Digital Products","description":"We design and build intuitive digital products and platforms that people love to use."},
+      "software": {"title":"Software Development","description":"Scalable, secure and robust software solutions tailored to your business."},
+      "it": {"title":"IT Solutions","description":"Infrastructure, cloud and workplace solutions that keep your business running."},
+      "security": {"title":"Cybersecurity","description":"We protect what matters. Security by design across systems, data and people."},
+      "data": {"title":"Data & Analytics","description":"Turning data into insight so you can make smarter decisions, faster."},
+      "design": {"title":"Design & Experience","description":"User-centered design that brings clarity, emotion and excellence to every detail."}
+    },
+    "approach": {
+      "kicker":"OUR APPROACH","title1":"Clarity first.","title2":"Always.",
+      "intro":"We follow a proven process that puts your goals at the center. From discovery to delivery and beyond, we’re with you every step of the way.",
+      "steps": {
+        "discover":{"title":"Discover","description":"We dive deep to understand your challenges, goals and opportunities."},
+        "define":{"title":"Define","description":"We translate insights into a clear strategy and actionable plan."},
+        "design":{"title":"Design","description":"We craft seamless experiences and solid architectures."},
+        "build":{"title":"Build","description":"We develop with precision, quality and scalability in mind."},
+        "deliver":{"title":"Deliver & Support","description":"We launch, optimize and support so you can keep moving forward."}
+      }
+    }
+  },
+  "Vision": {
+    "kicker":"05 / OUR VISION","title1":"Building a better","title2":"digital future.","title_highlight":"Together.",
+    "intro":"We believe technology has the power to simplify, connect and empower. Our vision is to create solutions that drive progress for people, businesses and society.",
+    "philosophy_link":"OUR PHILOSOPHY","image_alt":"Modern concrete staircase illuminated by sunlight","quote":"Our goal is simple: to create technology that makes a difference and lasts.",
+    "principles": {
+      "people":{"title":"People first","description":"We start with real people and real needs. Everything we build must create meaningful impact."},
+      "longterm":{"title":"Long-term thinking","description":"We build with longevity in mind. Quality, sustainability and responsibility guide our decisions."},
+      "excellence":{"title":"Excellence in execution","description":"Great ideas need flawless execution. We focus on precision, reliability and continuous improvement."},
+      "together":{"title":"Stronger together","description":"Collaboration is in our DNA. We grow through trust, transparency and shared ambition."}
+    },
+    "values_kicker":"OUR VALUES",
+    "values": {
+      "integrity":{"title":"Integrity","description":"We do what’s right, even when no one is watching."},
+      "accountability":{"title":"Accountability","description":"We take ownership and deliver on our promises."},
+      "innovation":{"title":"Innovation","description":"We challenge the status quo and turn ideas into value."},
+      "respect":{"title":"Respect","description":"We value each other and embrace diverse perspectives."},
+      "impact":{"title":"Impact","description":"We measure success by the positive change we create."}
+    },
+    "facts": {
+      "founded":{"value":"2024","label":"Founded"},"companies":{"value":"2+","label":"Companies"},"experts":{"value":"10+","label":"Experts"},"projects":{"value":"30+","label":"Projects delivered"},"vision":{"value":"1","label":"Shared vision"}
+    }
+  },
+  "Global": {
+    "kicker":"06 / BEYOND BORDERS","title1":"A global mindset.","title_highlight":"Local impact.",
+    "intro":"We work with clients and partners around the world. Different markets, the same commitment to quality, trust and long-term value.",
+    "growth_link":"OUR APPROACH TO GROWTH",
+    "pillars": {
+      "reach":{"title":"International reach","description":"Projects and partnerships across multiple countries."},
+      "partnerships":{"title":"Trusted partnerships","description":"We build strong relationships based on trust and results."},
+      "growth":{"title":"Sustainable growth","description":"Expanding our impact while staying true to our values."}
+    },
+    "metrics": {
+      "countries":{"value":"15+","label":"Countries we’ve worked in"},"partners":{"value":"30+","label":"International partners"},"projects":{"value":"120+","label":"Projects with global impact"},"satisfaction":{"value":"98%","label":"Client satisfaction worldwide"}
+    },
+    "quote":"Technology should remove barriers, strengthen connections, and give people the space to excel. That is what drives us.","trusted_by":"TRUSTED BY PARTNERS WORLDWIDE"
+  },
+  "Final": {
+    "kicker":"07 / LET’S BUILD TOGETHER","title1":"Ready to build","title2":"what’s next","intro":"Whether you have a clear plan or just an idea, we’re here to help you move forward. Let’s create something meaningful together.","start":"Start a conversation","work":"View our work",
+    "connect_kicker":"LET’S CONNECT","connect_title1":"We’d love to hear","connect_title2":"from you.","connect_intro":"Choose the way that works best for you.",
+    "contacts":{"email":{"title":"Email us","value":"info@vancoilliegroup.be"},"call":{"title":"Call us","value":"+32 499 87 38 92"},"visit":{"title":"Visit us","value":"Roeselare, Belgium"},"meeting":{"title":"Schedule a meeting","value":"Pick a time that suits you"}},
+    "brand_description":"A family of digital companies building technology that moves people forward.","group_title":"GROUP","expertise_title":"EXPERTISE","insights_title":"INSIGHTS","follow_title":"FOLLOW US",
+    "group":{"about":"About us","companies":"Companies","contact":"Contact"},"expertise":{"products":"Digital Products","software":"Software Development","it":"IT Solutions","security":"Cybersecurity","data":"Data & Analytics","design":"Design & Experience"},"insights":{"news":"Articles / News"},
+    "rights":"All rights reserved.","privacy":"Privacy Policy","terms":"Terms & Conditions"
+  },
+  "ContactForm": {
+    "kicker":"TELL US ABOUT YOUR PROJECT",
+    "title":"Let’s get acquainted.",
+    "intro":"Tell us briefly what you want to build. We’ll get back to you as soon as possible.",
+    "name_label":"Name",
+    "email_label":"Email address",
+    "company_label":"Company (optional)",
+    "message_label":"How can we help you?",
+    "consent":"I agree that Vancoillie Group may use my details to respond to my request.",
+    "submit":"Send enquiry",
+    "sending":"Sending…",
+    "success":"Thank you — we have received your enquiry.",
+    "error":"Sending is currently unavailable. Email us directly at",
+    "privacy":"Read our privacy policy"
+  },
+  "Consent": {
+    "label":"Cookie preferences",
+    "message":"With your permission, we use anonymous statistics to improve the website.",
+    "accept":"Accept",
+    "decline":"Decline"
+  },
+  "News": {
+    "kicker": "INSIGHTS & UPDATES",
+    "title": "Articles & News",
+    "intro": "Stay up to date with the latest developments, guides, and updates from our companies.",
+    "filter_all": "All",
+    "filter_ithulp": "Vancoillie IT Hulp",
+    "filter_studio": "Vancoillie Studio",
+    "read_more": "Read article",
+    "empty": "No articles found at the moment."
+  }
 }

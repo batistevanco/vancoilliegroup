@@ -1,15 +1,234 @@
 {
-  "Navbar": {"logo":"Vancoillie Group","menu":"Menu","close":"Sluiten","language":"Taal","links":{"group":"Groep","companies":"Bedrijven","capabilities":"Expertise","work":"Werk","vision":"Visie","contact":"Contact"},"cta":"Aan de slag"},
-  "Hero": {"badge":"Vancoillie IT Hulp & Studio, nu onder één dak","titleLine1":"Digitale groei,","titleLine2":"zonder grenzen","subtitle":"Vancoillie Group brengt IT-expertise en creatieve studio-diensten samen onder één merk, klaar voor de internationale markt.","cta":"Aan de slag"},
-  "Intro": {"eyebrow":"Eén groep. Meerdere richtingen.","title":"Technologie die mensen en bedrijven vooruithelpt.","body":"Vancoillie Group verbindt persoonlijke IT-ondersteuning, digitale productontwikkeling en ondernemerschap in één groeiend ecosysteem. Europees geworteld, gebouwd voor wat volgt.","orbLabel":"Group","nodes":{"group":"Vancoillie Group","it":"IT Hulp","studio":"Studio","future":"Wat volgt"}},
-  "Companies": {"eyebrow":"Ons ecosysteem","title":"Verschillende bedrijven. Eén kwaliteitsstandaard.","description":"Elke onderneming heeft haar eigen specialisatie en karakter, versterkt door gedeelde technologie, ontwerpkennis en langetermijndenken.","it":{"index":"01","name":"Vancoillie IT Hulp","label":"Menselijke technologie","title":"IT die gewoon werkt.","body":"Persoonlijke ondersteuning aan huis en op afstand voor apparaten, wifi, netwerken en alles wat digitaal eenvoudiger mag.","tags":"Ondersteuning|Netwerken|Hardware|Hulp op afstand","cta":"Ontdek IT Hulp"},"studio":{"index":"02","name":"Vancoillie Studio","label":"Digitale producten","title":"Van ambitie naar werkend product.","body":"Websites, apps, software en automatisering ontworpen als heldere, schaalbare ervaringen voor een internationale digitale wereld.","tags":"Web|Apps|Software|Productdesign","cta":"Ontdek Studio"}},
-  "Capabilities": {"eyebrow":"Gecombineerde expertise","title":"Van het netwerk tot het product erbovenop.","description":"Onze disciplines staan niet los van elkaar. Ze vormen één technische keten: strategie, ontwerp, ontwikkeling, infrastructuur en blijvende ondersteuning.","items":{"strategy":"Productstrategie","web":"Web experiences","software":"Softwareontwikkeling","mobile":"Mobiele applicaties","cloud":"Cloud & infrastructuur","network":"Netwerken & connectiviteit","automation":"Automatisering","support":"Technische ondersteuning"}},
-  "Philosophy": {"eyebrow":"Wat we geloven","title":"Vooruitgang voelt pas waardevol wanneer ze menselijk blijft.","statements":{"simple":"Eenvoud boven onnodige complexiteit.","quality":"Kwaliteit boven volume.","human":"Persoonlijke service, ondersteund door schaalbare technologie.","secure":"Privacy, veiligheid en betrouwbaarheid vanaf het eerste ontwerp.","long":"Gebouwd voor echte mensen en de lange termijn."}},
-  "Innovation": {"eyebrow":"Beyond today","title":"We bouwen niet alleen diensten. We bouwen het systeem voor toekomstige ideeën.","body":"Nieuwe softwareproducten, mobiele ervaringen, platformen en ondernemingen kunnen vanuit dezelfde gedeelde kern ontstaan — zorgvuldig, modulair en klaar om internationaal te groeien.","labels":{"core":"Group core","products":"Products","platforms":"Platforms","ventures":"Ventures","experiences":"Experiences"},"cta":"Bekijk onze visie"},
-  "Work": {"eyebrow":"Geselecteerde richtingen","title":"Werk dat technologie tastbaar maakt.","description":"Een uitbreidbare showcase voor eigen producten en geselecteerde digitale trajecten.","items":{"support":{"title":"Connected Support","company":"Vancoillie IT Hulp","category":"Service experience","year":"Actief","description":"Een toegankelijke ondersteuningsflow die lokale hulp en veilige ondersteuning op afstand samenbrengt.","tech":"Support systems|Connectivity|Service design"},"platform":{"title":"Digital Product Systems","company":"Vancoillie Studio","category":"Product development","year":"In ontwikkeling","description":"Modulaire digitale fundamenten voor websites, applicaties en toekomstige softwareproducten.","tech":"Next.js|TypeScript|Product design"}},"cta":"Bespreek een project"},
-  "Metrics": {"eyebrow":"Groeiend ecosysteem","items":{"companies":{"value":"2","label":"actieve bedrijven"},"languages":{"value":"2","label":"beschikbare talen"},"base":{"value":"BE","label":"Europese thuisbasis"},"scope":{"value":"∞","label":"ruimte voor wat volgt"}}},
-  "International": {"eyebrow":"België → verder","title":"Europese wortels. Internationale ambitie.","body":"We bouwen vanuit België voor mensen, ondernemingen en digitale markten zonder kunstmatige grenzen. Niet door overal aanwezig te lijken, maar door producten en systemen van bij de start internationaal bruikbaar te maken.","origin":"Belgium","reach":"Internationally ready","languages":"NL / EN"},
-  "CTA": {"eyebrow":"De volgende stap","title":"Laten we bouwen wat hierna komt.","body":"Een digitaal product, betrouwbare IT-ondersteuning of een samenwerking met de groep? Kies de route die bij je past.","primary":"Start een gesprek","studio":"Bezoek Studio","it":"Bezoek IT Hulp"},
-  "Footer": {"tagline":"Een toekomstgerichte technologiegroep uit België, gebouwd rond menselijke service en digitale producten.","companies":"Bedrijven","explore":"Ontdek","legal":"Juridisch","links":{"group":"Groep","capabilities":"Expertise","work":"Werk","vision":"Visie","contact":"Contact","privacy":"Privacy","cookies":"Cookies","terms":"Voorwaarden"},"location":"Belgium · Europe","copyright":"Vancoillie Group. Alle rechten voorbehouden."},
-  "Pages": {"back":"Terug naar home","contactTitle":"Vertel ons wat je wilt bouwen.","contactBody":"Kies de juiste route en geef ons voldoende context. We antwoorden persoonlijk.","success":"Bedankt. Je aanvraag staat klaar voor server-side verzending zodra de formulierbackend gekoppeld is.","submit":"Aanvraag voorbereiden","fields":{"name":"Naam","email":"E-mail","company":"Bedrijf (optioneel)","subject":"Type aanvraag","message":"Bericht","privacy":"Ik ga akkoord dat mijn gegevens gebruikt worden om op deze aanvraag te reageren.","select":"Kies een onderwerp","group":"Zakelijke samenwerking","studio":"Digitaal project","it":"IT-ondersteuning"},"routes":{"brands":{"title":"Onze bedrijven","body":"Ontdek de ondernemingen die samen het Vancoillie Group-ecosysteem vormen."},"about":{"title":"Langetermijndenken, menselijke technologie.","body":"Vancoillie Group bouwt vanuit België aan een groep van betrouwbare technologiebedrijven en digitale producten."},"services":{"title":"Expertise die elkaar versterkt.","body":"Van persoonlijke IT-ondersteuning tot internationale digitale productontwikkeling."},"work":{"title":"Geselecteerd werk","body":"Digitale systemen en ervaringen ontwikkeld binnen ons groeiende ecosysteem."},"vision":{"title":"Gebouwd voor wat volgt.","body":"Een modulaire basis voor nieuwe producten, platformen en ondernemingen."},"privacy":{"title":"Privacy","body":"Deze pagina wordt vervolledigd zodra de definitieve juridische en verwerkingsinformatie beschikbaar is."},"cookies":{"title":"Cookies","body":"De huidige website gebruikt geen niet-essentiële trackingcookies. Deze pagina blijft uitbreidbaar voor toekomstige toestemmingskeuzes."},"terms":{"title":"Voorwaarden","body":"Definitieve algemene voorwaarden worden hier gepubliceerd zodra ze juridisch zijn goedgekeurd."}}}
+  "Home": {
+    "title": "Vancoillie Group",
+    "description": "Vancoillie Group is een familie van digitale bedrijven die oplossingen creëren die mensen en bedrijven wereldwijd vereenvoudigen, verbinden en versterken."
+  },
+  "Navbar": {
+    "navigation_label": "Hoofdnavigatie",
+    "switch_language": "Wissel taal",
+    "open_menu": "Open menu",
+    "close_menu": "Sluit menu",
+    "group": "Groep",
+    "companies": "Bedrijven",
+    "it_help": "Vancoillie IT Hulp",
+    "studio": "Vancoillie Studio",
+    "expertise": "Expertise",
+    "work": "Werk",
+    "insights": "Inzichten",
+    "contact": "Contact",
+    "get_in_touch": "Neem contact op"
+  },
+  "DetailPage": {
+    "kicker": "EXPERTISE",
+    "contact": "BESPREEK JE PROJECT",
+    "visit_studio": "BEZOEK VANCOILLIE STUDIO",
+    "visit_it": "BEZOEK VANCOILLIE IT HULP",
+    "back": "TERUG NAAR EXPERTISE",
+    "focus_kicker": "ONZE FOCUS",
+    "outcomes_kicker": "WAT HET OPLEVERT",
+    "process_kicker": "HOE WE SAMENWERKEN",
+    "process_title": "Van eerste gesprek tot een oplossing die blijft werken.",
+    "process": {
+      "discover": {"title":"Begrijpen","text":"We luisteren naar je context, gebruikers en doelstellingen voordat we keuzes maken."},
+      "define": {"title":"Richting bepalen","text":"We vertalen inzichten naar een helder plan, realistische prioriteiten en een gedeeld beeld."},
+      "build": {"title":"Maken & testen","text":"We werken in overzichtelijke stappen, delen voortgang en toetsen wat we bouwen vroegtijdig."},
+      "evolve": {"title":"Verder groeien","text":"Na lancering blijven we meten, verfijnen en bouwen waar dat het meeste verschil maakt."}
+    },
+    "details": {
+      "products": {"overview":"Van eerste idee tot een product dat dagelijks gebruikt wordt: we brengen strategie, UX en technologie samen in één helder traject.","headline":"Digitale producten met echte waarde.","focus1":"We valideren je idee en vertalen het naar een productstrategie met duidelijke prioriteiten.","focus2":"We ontwerpen intuïtieve gebruikerservaringen die mensen onmiddellijk begrijpen.","focus3":"We bouwen schaalbaar, meten wat werkt en verbeteren samen na elke release.","image_alt":"AbboBuddy-app op een smartphone","outcomes_title":"Van idee naar dagelijks gebruik.","outcome1_title":"Sneller naar duidelijkheid","outcome1_text":"Een scherp concept voorkomt dat tijd en budget verloren gaan aan functies die niemand nodig heeft.","outcome2_title":"Meer adoptie","outcome2_text":"Een logische ervaring verlaagt drempels en maakt je product vanzelfsprekend om te gebruiken.","outcome3_title":"Een basis die blijft groeien","outcome3_text":"We bouwen een productfundament dat nieuwe inzichten, gebruikers en ambities aankan."},
+      "software": {"overview":"Maatsoftware moet processen eenvoudiger maken, niet complexer. Daarom vertrekken we vanuit je werking en bouwen we precies wat nodig is.","headline":"Software die meegroeit met je onderneming.","focus1":"We analyseren processen en brengen kansen voor automatisatie en efficiëntie scherp in beeld.","focus2":"We ontwikkelen betrouwbare toepassingen met aandacht voor veiligheid, integraties en performance.","focus3":"We zorgen voor een onderhoudbare codebasis en een plan voor toekomstige groei.","image_alt":"Digitale taakflow op een smartphone","outcomes_title":"Minder handwerk. Meer ruimte voor werk dat telt.","outcome1_title":"Processen die kloppen","outcome1_text":"Maatsoftware sluit aan op hoe je team echt werkt, in plaats van omwegen te creëren.","outcome2_title":"Slim verbonden","outcome2_text":"We koppelen de juiste systemen en gegevens zodat informatie niet langer versnipperd blijft.","outcome3_title":"Klaar voor morgen","outcome3_text":"Een heldere technische basis houdt je wendbaar wanneer je onderneming verandert."},
+      "it": {"overview":"Een sterke IT-omgeving geeft je team rust en continuïteit. We zorgen dat je infrastructuur veilig, overzichtelijk en beschikbaar blijft.","headline":"IT die onzichtbaar goed werkt.","focus1":"We brengen toestellen, netwerken, cloud en beveiliging samen in één beheersbare omgeving.","focus2":"We bieden praktische ondersteuning, op afstand of ter plaatse, wanneer je die nodig hebt.","focus3":"We bewaken je omgeving proactief zodat problemen worden voorkomen voordat ze je werk verstoren.","image_alt":"Vancoillie IT Hulp-portaal met hulpvragen","outcomes_title":"Een omgeving waarop je team kan rekenen.","outcome1_title":"Minder onderbreking","outcome1_text":"Door heldere ondersteuning en proactief beheer blijft je team productief wanneer het erop aankomt.","outcome2_title":"Eén aanspreekpunt","outcome2_text":"Van toestel tot netwerk: je krijgt hulp zonder te moeten zoeken naar de juiste specialist.","outcome3_title":"Meer overzicht","outcome3_text":"We maken je IT-landschap begrijpelijk, beheersbaar en afgestemd op je dagelijkse noden."},
+      "security": {"overview":"Cybersecurity is geen los product, maar een vaste laag in technologie, processen en dagelijkse gewoontes.","headline":"Bescherming ingebouwd vanaf de basis.","focus1":"We maken risico’s zichtbaar en bepalen samen welke beveiligingsmaatregelen het meeste verschil maken.","focus2":"We versterken toegang, toestellen, data en netwerken met praktische, passende controles.","focus3":"We helpen teams veilig werken met heldere afspraken en voortdurende aandacht voor verandering.","image_alt":"Digitale werkomgeving van Vancoillie IT Hulp","outcomes_title":"Veiligheid die werkbaar blijft.","outcome1_title":"Risico’s in beeld","outcome1_text":"We helpen je focussen op de kwetsbaarheden die voor jouw organisatie echt relevant zijn.","outcome2_title":"Rust in je werking","outcome2_text":"Praktische beveiliging beschermt je zonder processen onnodig complex te maken.","outcome3_title":"Sterkere gewoontes","outcome3_text":"Technologie werkt pas echt veilig wanneer mensen weten wat ze kunnen doen en waarom."},
+      "data": {"overview":"Goede beslissingen beginnen met betrouwbare informatie. We maken data bruikbaar, begrijpelijk en relevant voor je dagelijkse werking.","headline":"Van gegevens naar richting.","focus1":"We structureren de juiste data rond de vragen die voor jouw organisatie echt tellen.","focus2":"We maken inzichten zichtbaar in duidelijke dashboards en rapporteringen.","focus3":"We vertalen patronen naar concrete kansen voor groei, optimalisatie en betere keuzes.","image_alt":"Financieel overzicht in een mobiele app","outcomes_title":"Inzichten die tot actie leiden.","outcome1_title":"Eén duidelijk beeld","outcome1_text":"We brengen verspreide gegevens samen zodat je niet langer beslist op buikgevoel of losse exports.","outcome2_title":"Minder tijd zoeken","outcome2_text":"Heldere dashboards maken de juiste informatie toegankelijk op het moment dat je ze nodig hebt.","outcome3_title":"Betere keuzes","outcome3_text":"We vertalen cijfers naar patronen, kansen en vragen die je team echt vooruithelpen."},
+      "design": {"overview":"Sterk design creëert vertrouwen en maakt complexe zaken eenvoudig. We ontwerpen ervaringen die logisch voelen en je merk versterken.","headline":"Ervaringen die helder en menselijk voelen.","focus1":"We vertalen je merk, doelgroepen en ambities naar een duidelijke creatieve richting.","focus2":"We werken interfaces en interacties uit met aandacht voor toegankelijkheid en gebruiksgemak.","focus3":"We bewaken elk detail zodat identiteit, inhoud en technologie één geheel vormen.","image_alt":"Websiteontwerp van Vancoillie IT Hulp","outcomes_title":"Een ervaring die je merk waarmaakt.","outcome1_title":"Meer vertrouwen","outcome1_text":"Een consequente visuele taal maakt je aanbod geloofwaardig vanaf het eerste contactmoment.","outcome2_title":"Meer helderheid","outcome2_text":"We structureren inhoud en interactie zodat bezoekers sneller begrijpen wat ze kunnen doen.","outcome3_title":"Meer herkenbaarheid","outcome3_text":"Elk detail draagt bij aan een merkervaring die onderscheidend en coherent aanvoelt."}
+    }
+  },
+  "Philosophy": {
+    "kicker": "ONZE FILOSOFIE",
+    "principles_kicker": "WAAR WE VOOR STAAN",
+    "principles_title": "Principes die richting geven.",
+    "values_title": "Waarden die ons verbinden.",
+    "contact": "BOUW MET ONS MEE"
+  },
+  "Growth": {
+    "kicker": "ONZE AANPAK VOOR GROEI",
+    "title1": "Groei met een",
+    "title_highlight": "duidelijke richting.",
+    "pillars_kicker": "ZO BOUWEN WE VERDER",
+    "pillars_title": "Wereldwijd verbonden. Lokaal betrokken.",
+    "contact": "BESPREEK JE AMBITIE"
+  },
+  "Legal": {
+    "contact": "NEEM CONTACT OP",
+    "home": "TERUG NAAR HOME",
+    "privacy": {
+      "kicker": "JURIDISCH",
+      "title": "Privacybeleid",
+      "intro": "Vancoillie Group behandelt persoonsgegevens zorgvuldig en gebruikt ze alleen wanneer dat nodig is om contact op te nemen of onze dienstverlening te verbeteren.",
+      "section_title": "Jouw gegevens",
+      "section_content": "Heb je vragen over je gegevens of wil je een verzoek indienen? Neem dan contact met ons op via de contactpagina."
+    },
+    "terms": {
+      "kicker": "JURIDISCH",
+      "title": "Algemene voorwaarden",
+      "intro": "Deze pagina geeft de algemene uitgangspunten weer voor het gebruik van de website en de dienstverlening van Vancoillie Group.",
+      "section_title": "Vragen over onze voorwaarden",
+      "section_content": "Voor vragen over een samenwerking, offerte of toepasselijke voorwaarden kun je rechtstreeks contact met ons opnemen."
+    }
+  },
+  "Hero": {
+    "tagline": "TECHNOLOGIE. MENSEN. IMPACT.",
+    "title_line1": "Technologie bouwen",
+    "title_line2": "die",
+    "title_highlight": "mensen",
+    "title_end": "vooruit helpt.",
+    "description": "Vancoillie Group is een familie van digitale bedrijven die oplossingen creëren die mensen en bedrijven wereldwijd vereenvoudigen, verbinden en versterken.",
+    "btn_discover": "Ontdek onze bedrijven",
+    "btn_explore": "Ontdek ons werk",
+    "scroll_text": "SCROLL OM TE ONTDEKKEN",
+    "stats_label": "De groep in cijfers",
+    "companies_count": "2",
+    "companies_label": "Bedrijven",
+    "vision_count": "1",
+    "vision_label": "Gedeelde visie",
+    "possibilities_label": "Mogelijkheden"
+  },
+  "Footer": {
+    "trusted_by": "VERTROUWD DOOR PARTNERS:"
+  },
+  "Companies": {
+    "what_we_do": "WAT WE DOEN",
+    "title1": "Een groep gebouwd rond",
+    "title2": "technologie, service,",
+    "title3": "en",
+    "title_highlight": "digitale producten",
+    "introduction": "Vancoillie Group brengt bedrijven samen die organisaties slimmer laten werken, sneller laten groeien en veilig houden. Van IT-ondersteuning en infrastructuur tot maatsoftware, websites, apps en digitale platformen — we combineren persoonlijke service met schaalbare innovatie.",
+    "who_we_are": "WIE WE ZIJN",
+    "identity": "Geworteld in België en internationaal ambitieus bouwen we duurzame samenwerkingen op vertrouwen, vakmanschap en langetermijndenken. Onze teams nemen verantwoordelijkheid en leveren oplossingen met echte, meetbare waarde.",
+    "belgium": "Gevestigd in België",
+    "ambition": "Internationale ambitie",
+    "it": {"name":"Vancoillie IT Hulp","description":"Persoonlijke IT-ondersteuning voor particulieren en bedrijven. We lossen problemen op, versterken je infrastructuur en houden je vooruitgang in beweging.","service1":"Hulp op afstand & IT-support","service2":"Netwerken & infrastructuur","service3":"Hardware & software","service4":"Beveiliging & onderhoud","cta":"Ontdek Vancoillie IT Hulp"},
+    "studio": {"name":"Vancoillie Studio","description":"We ontwerpen en bouwen digitale producten die er goed uitzien, naadloos werken en resultaat opleveren — websites, apps, platformen en maatsoftware.","service1":"Websites & e-commerce","service2":"Web- & mobiele apps","service3":"Maatsoftware","service4":"Digitale producten","cta":"Ontdek Vancoillie Studio"}
+  },
+  "SelectedWork": {
+    "kicker": "GESELECTEERD WERK",
+    "title_line1": "Oplossingen waar we",
+    "title_line2": "trots op zijn.",
+    "intro": "Van digitale producten tot IT-oplossingen: we bouwen met precisie en zorg. Dit zijn enkele recente projecten die we samen met onze klanten realiseerden.",
+    "view_all": "BEKIJK ALLE PROJECTEN",
+    "view_case": "BEKIJK CASE",
+    "abbobuddy": {"label":"DIGITAAL PRODUCT","title":"AbboBuddy","description":"Een slimme en eenvoudige manier om al je abonnementen op één plek te beheren.","image_alt":"AbboBuddy-abonnementenapp op een smartphone"},
+    "website": {"label":"WEBSITES DOOR VANCOILLIE STUDIO","title":"Een website die voor je werkt.","description":"Vancoillie Studio ontwerpt en bouwt snelle, professionele websites die je merk versterken en bezoekers omzetten in klanten.","cta":"LAAT JE WEBSITE BOUWEN","image_alt":"Een professionele website van Vancoillie Studio weergegeven op een laptop"},
+    "news": {"label":"CONSUMENTENAPP","title":"Vancoillie News","description":"Technologienieuws, updates en inzichten samengebracht in één heldere mobiele ervaring.","image_alt":"Vancoillie News-app weergegeven op een smartphone"},
+    "metrics": {
+      "projects": {"value":"30+","label":"Projecten opgeleverd"},
+      "products": {"value":"10+","label":"Digitale producten"},
+      "clients": {"value":"75+","label":"Tevreden klanten"},
+      "uptime": {"value":"99,9%","label":"Uptime & betrouwbaarheid"},
+      "rating": {"value":"4,9/5","label":"Rating op Google Reviews"}
+    }
+  },
+  "Capabilities": {
+    "kicker": "04 / ONZE EXPERTISE",
+    "title1": "End-to-end",
+    "title2": "oplossingen.",
+    "title_highlight": "Gebouwd om te blijven.",
+    "intro": "We combineren strategie, design en technologie om digitale producten en IT-oplossingen te bouwen die resultaat opleveren en de tand des tijds doorstaan.",
+    "approach_link": "ONZE AANPAK",
+    "learn_more": "MEER ONTDEKKEN",
+    "items": {
+      "products": {"title":"Digitale producten","description":"We ontwerpen en bouwen intuïtieve digitale producten en platformen die mensen graag gebruiken."},
+      "software": {"title":"Softwareontwikkeling","description":"Schaalbare, veilige en robuuste maatsoftware, volledig afgestemd op je onderneming."},
+      "it": {"title":"IT-oplossingen","description":"Infrastructuur-, cloud- en werkplekoplossingen die je onderneming draaiende houden."},
+      "security": {"title":"Cybersecurity","description":"We beschermen wat telt, met beveiliging ingebouwd in systemen, data en mensen."},
+      "data": {"title":"Data & analyse","description":"We vertalen data naar inzichten, zodat je sneller slimmere beslissingen kunt nemen."},
+      "design": {"title":"Design & ervaring","description":"Mensgericht ontwerp dat helderheid, emotie en kwaliteit tot in elk detail brengt."}
+    },
+    "approach": {
+      "kicker":"ONZE AANPAK","title1":"Helderheid eerst.","title2":"Altijd.",
+      "intro":"We volgen een bewezen proces dat jouw doelen centraal stelt. Van ontdekking tot oplevering en daarna: we staan naast je bij elke stap.",
+      "steps": {
+        "discover":{"title":"Ontdekken","description":"We verdiepen ons in je uitdagingen, doelen en kansen."},
+        "define":{"title":"Bepalen","description":"We vertalen inzichten naar een heldere strategie en uitvoerbaar plan."},
+        "design":{"title":"Ontwerpen","description":"We creëren naadloze ervaringen en solide architecturen."},
+        "build":{"title":"Bouwen","description":"We ontwikkelen nauwkeurig, met kwaliteit en schaalbaarheid voorop."},
+        "deliver":{"title":"Opleveren & ondersteunen","description":"We lanceren, optimaliseren en ondersteunen zodat je vooruit blijft gaan."}
+      }
+    }
+  },
+  "Vision": {
+    "kicker":"05 / ONZE VISIE","title1":"Bouwen aan een betere","title2":"digitale toekomst.","title_highlight":"Samen.",
+    "intro":"Wij geloven dat technologie de kracht heeft om te vereenvoudigen, verbinden en versterken. Onze visie is oplossingen creëren die vooruitgang brengen voor mensen, bedrijven en de samenleving.",
+    "philosophy_link":"ONZE FILOSOFIE","image_alt":"Moderne betonnen trap verlicht door zonlicht","quote":"Ons doel is eenvoudig: technologie creëren die een verschil maakt en blijft duren.",
+    "principles": {
+      "people":{"title":"Mensen eerst","description":"We vertrekken vanuit echte mensen en echte behoeften. Alles wat we bouwen moet betekenisvolle impact creëren."},
+      "longterm":{"title":"Langetermijndenken","description":"We bouwen met de toekomst in gedachten. Kwaliteit, duurzaamheid en verantwoordelijkheid sturen onze keuzes."},
+      "excellence":{"title":"Uitmuntend in uitvoering","description":"Sterke ideeën vragen een feilloze uitvoering. We focussen op precisie, betrouwbaarheid en voortdurende verbetering."},
+      "together":{"title":"Samen sterker","description":"Samenwerking zit in ons DNA. We groeien door vertrouwen, transparantie en gedeelde ambitie."}
+    },
+    "values_kicker":"ONZE WAARDEN",
+    "values": {
+      "integrity":{"title":"Integriteit","description":"We doen wat juist is, ook wanneer niemand kijkt."},
+      "accountability":{"title":"Verantwoordelijkheid","description":"We nemen eigenaarschap en komen onze beloften na."},
+      "innovation":{"title":"Innovatie","description":"We dagen de status quo uit en zetten ideeën om in waarde."},
+      "respect":{"title":"Respect","description":"We waarderen elkaar en omarmen verschillende perspectieven."},
+      "impact":{"title":"Impact","description":"We meten succes aan de positieve verandering die we creëren."}
+    },
+    "facts": {
+      "founded":{"value":"2024","label":"Opgericht"},"companies":{"value":"2+","label":"Bedrijven"},"experts":{"value":"10+","label":"Experts"},"projects":{"value":"30+","label":"Projecten opgeleverd"},"vision":{"value":"1","label":"Gedeelde visie"}
+    }
+  },
+  "Global": {
+    "kicker":"06 / OVER GRENZEN HEEN","title1":"Een wereldwijde mindset.","title_highlight":"Lokale impact.",
+    "intro":"We werken samen met klanten en partners over de hele wereld. Verschillende markten, dezelfde toewijding aan kwaliteit, vertrouwen en waarde op lange termijn.",
+    "growth_link":"ONZE AANPAK VOOR GROEI",
+    "pillars": {
+      "reach":{"title":"Internationaal bereik","description":"Projecten en samenwerkingen in verschillende landen."},
+      "partnerships":{"title":"Vertrouwde partnerships","description":"We bouwen sterke relaties op basis van vertrouwen en resultaten."},
+      "growth":{"title":"Duurzame groei","description":"Onze impact vergroten terwijl we trouw blijven aan onze waarden."}
+    },
+    "metrics": {
+      "countries":{"value":"15+","label":"Landen waarin we werkten"},"partners":{"value":"30+","label":"Internationale partners"},"projects":{"value":"120+","label":"Projecten met wereldwijde impact"},"satisfaction":{"value":"98%","label":"Klanttevredenheid wereldwijd"}
+    },
+    "quote":"Technologie moet drempels wegnemen, verbindingen versterken en mensen de ruimte geven om te excelleren. Dat is onze drijfveer.","trusted_by":"VERTROUWD DOOR PARTNERS WERELDWIJD"
+  },
+  "Final": {
+    "kicker":"07 / LATEN WE SAMEN BOUWEN","title1":"Klaar om te bouwen aan","title2":"wat volgt","intro":"Of je nu een duidelijk plan hebt of alleen een idee: wij helpen je graag vooruit. Laten we samen iets betekenisvols creëren.","start":"Start een gesprek","work":"Bekijk ons werk",
+    "connect_kicker":"LATEN WE VERBINDEN","connect_title1":"We horen graag","connect_title2":"van je.","connect_intro":"Kies de manier die voor jou het beste werkt.",
+    "contacts":{"email":{"title":"Mail ons","value":"info@vancoilliegroup.be"},"call":{"title":"Bel ons","value":"+32 499 87 38 92"},"visit":{"title":"Bezoek ons","value":"Roeselare, België"},"meeting":{"title":"Plan een gesprek","value":"Kies een moment dat past"}},
+    "brand_description":"Een familie van digitale bedrijven die technologie bouwt die mensen vooruit helpt.","group_title":"GROEP","expertise_title":"EXPERTISE","insights_title":"INZICHTEN","follow_title":"VOLG ONS",
+    "group":{"about":"Over ons","companies":"Bedrijven","contact":"Contact"},"expertise":{"products":"Digitale producten","software":"Softwareontwikkeling","it":"IT-oplossingen","security":"Cybersecurity","data":"Data & analyse","design":"Design & ervaring"},"insights":{"news":"Artikelen / Nieuws"},
+    "rights":"Alle rechten voorbehouden.","privacy":"Privacybeleid","terms":"Algemene voorwaarden"
+  },
+  "ContactForm": {
+    "kicker":"VERTEL ONS OVER JE PROJECT",
+    "title":"Laten we kennismaken.",
+    "intro":"Vertel kort wat je wilt bouwen. We nemen zo snel mogelijk contact met je op.",
+    "name_label":"Naam",
+    "email_label":"E-mailadres",
+    "company_label":"Bedrijf (optioneel)",
+    "message_label":"Waar kunnen we je mee helpen?",
+    "consent":"Ik ga ermee akkoord dat Vancoillie Group mijn gegevens gebruikt om mijn aanvraag te beantwoorden.",
+    "submit":"Verstuur aanvraag",
+    "sending":"Versturen…",
+    "success":"Bedankt — we hebben je aanvraag goed ontvangen.",
+    "error":"Versturen lukt momenteel niet. Mail ons rechtstreeks via",
+    "privacy":"Lees ons privacybeleid"
+  },
+  "Consent": {
+    "label":"Cookievoorkeuren",
+    "message":"Met jouw toestemming gebruiken we anonieme statistieken om de website te verbeteren.",
+    "accept":"Accepteren",
+    "decline":"Weigeren"
+  },
+  "News": {
+    "kicker": "INZICHTEN & UPDATES",
+    "title": "Artikelen & Nieuws",
+    "intro": "Blijf op de hoogte van de laatste ontwikkelingen, handleidingen en updates van onze bedrijven.",
+    "filter_all": "Alles",
+    "filter_ithulp": "Vancoillie IT Hulp",
+    "filter_studio": "Vancoillie Studio",
+    "read_more": "Lees artikel",
+    "empty": "Momenteel geen artikelen gevonden."
+  }
 }
