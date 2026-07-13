@@ -78,7 +78,7 @@ export function Navbar() {
           <span>{t("get_in_touch")}</span>
           <span aria-hidden="true">↗</span>
         </Link>
-        <button className="menu-button" type="button" aria-expanded={menuOpen} aria-controls="mobile-navigation" onClick={() => setMenuOpen(!menuOpen)}>
+        <button className={`menu-button ${menuOpen ? "open" : ""}`} type="button" aria-expanded={menuOpen} aria-controls="mobile-navigation" onClick={() => setMenuOpen(!menuOpen)}>
           <span className="sr-only">{menuOpen ? t("close_menu") : t("open_menu")}</span>
           <i/><i/>
         </button>

@@ -19,19 +19,19 @@ export function GlobalSection() {
   const t = useTranslations("Global");
   return <section id="global" className="global-section" aria-labelledby="global-title">
     <div className="global-hero" style={{backgroundImage:`url(${globeImage.src})`}}>
-      <div className="global-copy">
+      <div className="global-copy reveal">
         <p className="section-kicker">{t("kicker")}</p>
         <h2 id="global-title">{t("title1")}<br /><span>{t("title_highlight")}</span></h2>
         <p>{t("intro")}</p>
         <Link className="section-text-link" href="/growth">{t("growth_link")} <span aria-hidden="true">↗</span></Link>
       </div>
-      <div className="global-pillars">
+      <div className="global-pillars reveal delay-1">
         {pillars.map(pillar => <article key={pillar}><span><GlobalIcon name={pillar}/></span><div><h3>{t(`pillars.${pillar}.title`)}</h3><p>{t(`pillars.${pillar}.description`)}</p></div></article>)}
       </div>
     </div>
     <div className="global-partners">
-      <blockquote><b aria-hidden="true">“</b><p>{t("quote")}</p><cite>VANCOILLIE GROUP</cite></blockquote>
-      <div><p>{t("trusted_by")}</p><ul className="global-sponsor-logos" aria-label={t("trusted_by")}><li className="logo-ithulp"><Image src={itHulp} alt="Vancoillie IT Hulp" sizes="170px"/></li><li className="logo-studio"><Image src={studio} alt="Vancoillie Studio" sizes="170px"/></li></ul></div>
+      <blockquote className="reveal"><b aria-hidden="true">“</b><p>{t("quote")}</p><cite>VANCOILLIE GROUP</cite></blockquote>
+      <div className="reveal delay-1"><p>{t("trusted_by")}</p><ul className="global-sponsor-logos" aria-label={t("trusted_by")}><li className="logo-ithulp"><Image src={itHulp} alt="Vancoillie IT Hulp" sizes="170px"/></li><li className="logo-studio"><Image src={studio} alt="Vancoillie Studio" sizes="170px"/></li></ul></div>
     </div>
   </section>;
 }

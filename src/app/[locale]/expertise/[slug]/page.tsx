@@ -76,16 +76,18 @@ export default async function ExpertiseDetailPage({params}: {params: Promise<{sl
     <main className="detail-page">
       <Navbar />
       <section className="detail-content" aria-labelledby="detail-title">
-        <header className="detail-hero">
+        <header className={`detail-hero ${key === "data" ? "detail-hero-no-image" : ""}`}>
           <div className="detail-hero-copy">
             <p className="section-kicker">{detail("kicker")}</p>
             <h1 id="detail-title">{t(`items.${key}.title`)}</h1>
             <p>{t(`items.${key}.description`)}</p>
             <p className="detail-overview">{detail(`details.${key}.overview`)}</p>
           </div>
-          <div className={`detail-visual detail-visual-${key}`}>
-            <Image src={image} alt={detail(`details.${key}.image_alt`)} fill priority sizes="(max-width: 780px) 100vw, 46vw" />
-          </div>
+          {key !== "data" && (
+            <div className={`detail-visual detail-visual-${key}`}>
+              <Image src={image} alt={detail(`details.${key}.image_alt`)} fill priority sizes="(max-width: 780px) 100vw, 46vw" />
+            </div>
+          )}
         </header>
         <section className="detail-focus" aria-labelledby="focus-title">
           <p className="section-kicker">{detail("focus_kicker")}</p>

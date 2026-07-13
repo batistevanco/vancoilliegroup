@@ -13,8 +13,8 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     path: "/growth",
     title: locale === "en" ? "Growth" : "Groei",
     description: locale === "en"
-      ? "Discover how Vancoillie Group combines technology, partnerships and sustainable growth."
-      : "Ontdek hoe Vancoillie Group technologie, partnerships en duurzame groei samenbrengt.",
+      ? "Discover the independent direction and long-term ambition behind Vancoillie Group."
+      : "Ontdek de onafhankelijke richting en langetermijnambitie achter Vancoillie Group.",
   });
 }
 

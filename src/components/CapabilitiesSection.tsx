@@ -24,14 +24,14 @@ export function CapabilitiesSection() {
   return (
     <section id="expertise" className="capabilities-section" aria-labelledby="capabilities-title">
       <div className="capabilities-top">
-        <div className="capabilities-copy">
+        <div className="capabilities-copy reveal">
           <p className="section-kicker">{t("kicker")}</p>
           <h2 id="capabilities-title">{t("title1")}<br />{t("title2")}<br /><span>{t("title_highlight")}</span></h2>
           <p>{t("intro")}</p>
           <Link className="section-text-link" href="/#approach">{t("approach_link")} <span aria-hidden="true">↗</span></Link>
         </div>
 
-        <div className="capability-grid">
+        <div className="capability-grid reveal delay-1">
           {capabilities.map((capability) => (
             <article className="capability-card" key={capability}>
               <LineIcon name={capability} />
@@ -45,12 +45,12 @@ export function CapabilitiesSection() {
       </div>
 
       <div id="approach" className="approach-row">
-        <div className="approach-intro">
+        <div className="approach-intro reveal">
           <p className="section-kicker">{t("approach.kicker")}</p>
           <h2>{t("approach.title1")}<br />{t("approach.title2")}</h2>
           <p>{t("approach.intro")}</p>
         </div>
-        <ol className="process-steps">
+        <ol className="process-steps reveal delay-1">
           {steps.map((step, index) => (
             <li key={step}>
               <LineIcon name={step} />

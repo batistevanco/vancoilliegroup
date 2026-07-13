@@ -1,7 +1,7 @@
 {
   "Home": {
     "title": "Vancoillie Group",
-    "description": "Vancoillie Group is a family of digital companies creating solutions that simplify, connect and empower people and businesses worldwide."
+    "description": "Vancoillie Group is the independent starting point of one ambitious maker. I build my own apps and software for everyone, offer personal IT help, and create websites for small independent businesses."
   },
   "Navbar": {
     "navigation_label": "Main navigation",
@@ -9,7 +9,7 @@
     "open_menu": "Open menu",
     "close_menu": "Close menu",
     "group": "Group",
-    "companies": "Companies",
+    "companies": "Initiatives",
     "it_help": "Vancoillie IT Hulp",
     "studio": "Vancoillie Studio",
     "expertise": "Expertise",
@@ -78,54 +78,54 @@
   },
   "Hero": {
     "tagline": "TECHNOLOGY. PEOPLE. IMPACT.",
-    "title_line1": "Building technology",
-    "title_line2": "that moves",
+    "title_line1": "Building technology that moves",
+    "title_line2": "",
     "title_highlight": "people",
     "title_end": "forward.",
-    "description": "Vancoillie Group is a family of digital companies creating solutions that simplify, connect and empower people and businesses worldwide.",
-    "btn_discover": "Discover our companies",
+    "description": "Vancoillie Group is the independent starting point of one ambitious maker. I build my own apps and software for everyone, offer personal IT help, and create websites for small independent businesses.",
+    "btn_discover": "Discover my initiatives",
     "btn_explore": "Explore our work",
     "scroll_text": "SCROLL TO DISCOVER",
-    "stats_label": "Group at a glance",
+    "stats_label": "Today",
     "companies_count": "2",
-    "companies_label": "Companies",
+    "companies_label": "Initiatives",
     "vision_count": "1",
-    "vision_label": "Shared vision",
-    "possibilities_label": "Possibilities"
+    "vision_label": "Maker",
+    "possibilities_label": "Ambition"
   },
   "Footer": {
     "trusted_by": "TRUSTED BY PARTNERS:"
   },
   "Companies": {
-    "what_we_do": "WHAT WE DO",
-    "title1": "A group built around",
-    "title2": "technology, service,",
-    "title3": "and",
-    "title_highlight": "digital products",
-    "introduction": "Vancoillie Group brings together companies that help organizations work smarter, grow faster, and stay secure. From IT support and infrastructure to custom software, websites, apps, and digital platforms — we combine personal service with scalable innovation.",
-    "who_we_are": "WHO WE ARE",
-    "identity": "Belgium-rooted and internationally ambitious, we build lasting partnerships through trust, craftsmanship, and long-term thinking. Our teams take ownership and deliver solutions that create real, measurable value.",
-    "belgium": "Belgium based",
-    "ambition": "International ambition",
-    "it": {"name":"Vancoillie IT Hulp","description":"Personal IT support for individuals and businesses. We solve problems, strengthen your infrastructure, and keep you moving forward.","service1":"Remote help & IT support","service2":"Networks & infrastructure","service3":"Hardware & software","service4":"Security & maintenance","cta":"Discover Vancoillie IT Hulp"},
-    "studio": {"name":"Vancoillie Studio","description":"We design and build digital products that look great, work seamlessly, and drive results — websites, apps, platforms, and custom software.","service1":"Websites & e-commerce","service2":"Web & mobile apps","service3":"Custom software","service4":"Digital products","cta":"Discover Vancoillie Studio"}
+    "what_we_do": "WHAT I MAKE",
+    "title1": "One maker with",
+    "title2": "two initiatives",
+    "title3": "and a",
+    "title_highlight": "big ambition",
+    "introduction": "Vancoillie Group is the independent starting point of Batiste Vancoillie. Today I build my own apps and software I want to see in the world, offer personal IT help through Vancoillie IT Hulp, and create websites for small independent businesses through Vancoillie Studio.",
+    "who_we_are": "TODAY",
+    "identity": "No big agency and no fictional team: Vancoillie Group is currently one independent maker. I build step by step, with useful products, honest service, and a foundation to grow sustainably later.",
+    "belgium": "Independent in Belgium",
+    "ambition": "Ambition to grow",
+    "it": {"name":"Vancoillie IT Hulp","description":"Personal IT help for people who want to move forward without technical hassle. I help in a practical, clear way and at a pace that suits you.","service1":"Remote & in-home help","service2":"Devices, Wi-Fi & accounts","service3":"Hardware & software","service4":"Digital safety & maintenance","cta":"Discover Vancoillie IT Hulp"},
+    "studio": {"name":"Vancoillie Studio","description":"Vancoillie Studio creates clear, professional websites for small independent businesses that want to be visible online without a big agency around them.","service1":"Websites for independents","service2":"Online visibility","service3":"Design & content","service4":"Practical digital help","cta":"Discover Vancoillie Studio"}
   },
   "SelectedWork": {
-    "kicker": "SELECTED WORK",
-    "title_line1": "Solutions we’re",
-    "title_line2": "proud of.",
-    "intro": "From digital products to IT solutions, we build with precision and care. Here are some recent projects we’ve partnered on.",
-    "view_all": "VIEW ALL PROJECTS",
+    "kicker": "MADE INDEPENDENTLY",
+    "title_line1": "Own ideas,",
+    "title_line2": "made visible.",
+    "intro": "These are apps and websites I work on myself. The apps are for anyone who finds them useful; through Vancoillie Studio I build websites for small independent businesses.",
+    "view_all": "VIEW VANCOILLIE STUDIO",
     "view_case": "VIEW CASE",
     "abbobuddy": {"label":"DIGITAL PRODUCT","title":"AbboBuddy","description":"A smart and simple way to manage all your subscriptions in one place.","image_alt":"AbboBuddy subscription app displayed on a smartphone"},
-    "website": {"label":"WEBSITES BY VANCOILLIE STUDIO","title":"A website that works for you.","description":"Vancoillie Studio designs and builds fast, professional websites that strengthen your brand and turn visitors into customers.","cta":"BUILD YOUR WEBSITE","image_alt":"A professional website by Vancoillie Studio displayed on a laptop"},
+    "website": {"label":"WEBSITES BY VANCOILLIE STUDIO","title":"A website that fits you.","description":"Through Vancoillie Studio, I create clear, professional websites for small independent businesses starting online.","cta":"VIEW VANCOILLIE STUDIO","image_alt":"A professional website by Vancoillie Studio displayed on a laptop"},
     "news": {"label":"CONSUMER APP","title":"Vancoillie News","description":"Technology news, updates, and insights brought together in one clear mobile experience.","image_alt":"Vancoillie News app displayed on a smartphone"},
     "metrics": {
-      "projects": {"value":"30+","label":"Projects delivered"},
-      "products": {"value":"10+","label":"Digital products"},
-      "clients": {"value":"75+","label":"Happy clients"},
-      "uptime": {"value":"99.9%","label":"Uptime & reliability"},
-      "rating": {"value":"4.9/5","label":"Rating on Google Reviews"}
+      "maker": {"value":"1","label":"Independent maker"},
+      "initiatives": {"value":"2","label":"Initiatives"},
+      "apps": {"value":"Open","label":"Own apps for everyone"},
+      "studio": {"value":"Studio","label":"Websites for independents"},
+      "ambition": {"value":"Growth","label":"Ambition for later"}
     }
   },
   "Capabilities": {
@@ -175,45 +175,46 @@
       "impact":{"title":"Impact","description":"We measure success by the positive change we create."}
     },
     "facts": {
-      "founded":{"value":"2024","label":"Founded"},"companies":{"value":"2+","label":"Companies"},"experts":{"value":"10+","label":"Experts"},"projects":{"value":"30+","label":"Projects delivered"},"vision":{"value":"1","label":"Shared vision"}
+      "founded": {"value": "2024", "label": "Founded"},
+      "maker": {"value": "1", "label": "Independent maker"},
+      "initiatives": {"value": "2", "label": "Initiatives"},
+      "availability": {"value": "Open", "label": "Apps for everyone"},
+      "vision": {"value": "1", "label": "Clear direction"}
     }
   },
   "Global": {
-    "kicker":"06 / BEYOND BORDERS","title1":"A global mindset.","title_highlight":"Local impact.",
-    "intro":"We work with clients and partners around the world. Different markets, the same commitment to quality, trust and long-term value.",
-    "growth_link":"OUR APPROACH TO GROWTH",
+    "kicker":"06 / LOOKING AHEAD","title1":"Started locally.","title_highlight":"Thinking big.",
+    "intro":"I build from Belgium, with products that can be available online to anyone. Not as a large company, but with the ambition to grow step by step.",
+    "growth_link":"MY DIRECTION",
     "pillars": {
-      "reach":{"title":"International reach","description":"Projects and partnerships across multiple countries."},
-      "partnerships":{"title":"Trusted partnerships","description":"We build strong relationships based on trust and results."},
-      "growth":{"title":"Sustainable growth","description":"Expanding our impact while staying true to our values."}
+      "reach":{"title":"Available to everyone","description":"My own apps are made for people who want to use them anywhere."},
+      "partnerships":{"title":"Built independently","description":"Today I work independently, leaving room to grow carefully with others later."},
+      "growth":{"title":"Step by step","description":"I expand my reach without losing simplicity, care or honesty."}
     },
     "metrics": {
       "countries":{"value":"15+","label":"Countries we’ve worked in"},"partners":{"value":"30+","label":"International partners"},"projects":{"value":"120+","label":"Projects with global impact"},"satisfaction":{"value":"98%","label":"Client satisfaction worldwide"}
     },
-    "quote":"Technology should remove barriers, strengthen connections, and give people the space to excel. That is what drives us.","trusted_by":"TRUSTED BY PARTNERS WORLDWIDE"
+    "quote":"Technology should remove barriers and give people room to move forward on their own. That is what drives me.","trusted_by":"MY INITIATIVES"
   },
   "Final": {
-    "kicker":"07 / LET’S BUILD TOGETHER","title1":"Ready to build","title2":"what’s next","intro":"Whether you have a clear plan or just an idea, we’re here to help you move forward. Let’s create something meaningful together.","start":"Start a conversation","work":"View our work",
-    "connect_kicker":"LET’S CONNECT","connect_title1":"We’d love to hear","connect_title2":"from you.","connect_intro":"Choose the way that works best for you.",
-    "contacts":{"email":{"title":"Email us","value":"info@vancoilliegroup.be"},"call":{"title":"Call us","value":"+32 499 87 38 92"},"visit":{"title":"Visit us","value":"Roeselare, Belgium"},"meeting":{"title":"Schedule a meeting","value":"Pick a time that suits you"}},
-    "brand_description":"A family of digital companies building technology that moves people forward.","group_title":"GROUP","expertise_title":"EXPERTISE","insights_title":"INSIGHTS","follow_title":"FOLLOW US",
-    "group":{"about":"About us","companies":"Companies","contact":"Contact"},"expertise":{"products":"Digital Products","software":"Software Development","it":"IT Solutions","security":"Cybersecurity","data":"Data & Analytics","design":"Design & Experience"},"insights":{"news":"Articles / News"},
+    "kicker":"07 / LET’S CONNECT","title1":"Ready for","title2":"something new?","intro":"Do you have a question about IT help, a website for your independent business, or one of my apps? I would love to hear from you.","start":"Send a message","work":"View my work",
+    "connect_kicker":"CONTACT","connect_title1":"I’d love to hear","connect_title2":"from you.","connect_intro":"Choose the way that works best for you.",
+    "contacts":{"email":{"title":"Email me","value":"info@vancoilliegroup.be"},"call":{"title":"Call me","value":"+32 499 87 38 92"},"visit":{"title":"Based in","value":"Roeselare, Belgium"},"meeting":{"title":"Schedule a chat","value":"Pick a time that suits you"}},
+    "brand_description":"An independent maker behind IT help, websites for small independent businesses and useful digital products.","group_title":"ABOUT","expertise_title":"WHAT I MAKE","insights_title":"INSIGHTS","follow_title":"FOLLOW ME",
+    "group":{"about":"About Vancoillie Group","companies":"Initiatives","contact":"Contact"},"expertise":{"products":"Digital Products","software":"Own software","it":"IT help","security":"Digital safety","data":"Data in apps","design":"Web design"},"insights":{"news":"Articles / News"},
     "rights":"All rights reserved.","privacy":"Privacy Policy","terms":"Terms & Conditions"
   },
   "ContactForm": {
-    "kicker":"TELL US ABOUT YOUR PROJECT",
+    "kicker":"DIRECT CONTACT",
     "title":"Let’s get acquainted.",
-    "intro":"Tell us briefly what you want to build. We’ll get back to you as soon as possible.",
-    "name_label":"Name",
+    "intro":"Send us an email directly or contact us by phone. Click on the details on the right to start a conversation.",
     "email_label":"Email address",
-    "company_label":"Company (optional)",
-    "message_label":"How can we help you?",
-    "consent":"I agree that Vancoillie Group may use my details to respond to my request.",
-    "submit":"Send enquiry",
-    "sending":"Sending…",
-    "success":"Thank you — we have received your enquiry.",
-    "error":"Sending is currently unavailable. Email us directly at",
-    "privacy":"Read our privacy policy"
+    "phone_label":"Phone number",
+    "location_label":"Office",
+    "meeting_label":"Meeting",
+    "meeting_value":"Schedule a meeting",
+    "copy":"Copy",
+    "copied":"Copied!"
   },
   "Consent": {
     "label":"Cookie preferences",

@@ -39,8 +39,7 @@ export default function HomePage() {
         <div className="hero-copy">
           <p className="hero-eyebrow">{t("tagline")}</p>
           <h1 id="hero-title">
-            {t("title_line1")}<br />
-            {t("title_line2")}<br />
+            {t("title_line1")}{t("title_line2") ? <><br />{t("title_line2")}</> : ""}<br />
             <span>{t("title_highlight")}</span> {t("title_end")}
           </h1>
           <p className="hero-description">{t("description")}</p>

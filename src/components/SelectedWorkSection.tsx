@@ -1,7 +1,7 @@
 import Image, {type StaticImageData} from "next/image";
 import {useTranslations} from "next-intl";
 import abboBuddyImage from "@/IMAGES/AbboBuddyPromoBovenAan-optimized.jpg";
-import websiteImage from "@/IMAGES/WebsiteBuildPromoLinksOnder-optimized.jpg";
+import websiteImage from "@/IMAGES/WebsiteBuildingPromo.png";
 import newsImage from "@/IMAGES/VancoillieNewsPromoRechtsOnder-optimized.jpg";
 
 type WorkCardProps = {
@@ -34,12 +34,12 @@ function WorkCard({image, imageAlt, label, title, description, cta, href, classN
 
 export function SelectedWorkSection() {
   const t = useTranslations("SelectedWork");
-  const metrics = ["projects", "products", "clients", "uptime", "rating"] as const;
+  const metrics = ["maker", "initiatives", "apps", "studio", "ambition"] as const;
 
   return (
     <section id="work" className="selected-work-section" aria-labelledby="selected-work-title">
       <div className="selected-work-shell">
-        <header className="selected-work-header">
+        <header className="selected-work-header reveal">
           <div>
             <p className="section-kicker">{t("kicker")}</p>
             <h2 id="selected-work-title">{t("title_line1")}<br />{t("title_line2")}</h2>
@@ -50,7 +50,7 @@ export function SelectedWorkSection() {
           </div>
         </header>
 
-        <div className="work-grid">
+        <div className="work-grid reveal delay-1">
           <WorkCard
             image={abboBuddyImage}
             imageAlt={t("abbobuddy.image_alt")}
@@ -83,7 +83,7 @@ export function SelectedWorkSection() {
           />
         </div>
 
-        <dl className="work-metrics grid grid-cols-5 max-[560px]:grid-cols-2">
+        <dl className="work-metrics reveal delay-2 grid grid-cols-5 max-[560px]:grid-cols-2">
           {metrics.map((metric) => (
             <div key={metric}>
               <dt>{t(`metrics.${metric}.value`)}</dt>

@@ -33,7 +33,7 @@ export function CompaniesSection() {
       <div className="companies-background" aria-hidden="true"><Image src={background} alt="" fill quality={75} sizes="100vw" /></div>
       <div className="companies-wash" aria-hidden="true" />
       <div className="companies-layout">
-        <div className="companies-copy">
+        <div className="companies-copy reveal">
           <p className="section-kicker">{t("what_we_do")}</p>
           <h2 id="companies-title">{t("title1")}<br />{t("title2")}<br />{t("title3")} <span>{t("title_highlight")}</span>.</h2>
           <p className="companies-intro">{t("introduction")}</p>
@@ -43,7 +43,7 @@ export function CompaniesSection() {
             <div className="location-line"><span aria-hidden="true">◎</span>{t("belgium")}<i>/</i>{t("ambition")}</div>
           </div>
         </div>
-        <div className="company-panels">
+        <div className="company-panels reveal delay-2">
           <CompanyPanel company="it" logo={itHulpLogo} />
           <CompanyPanel company="studio" logo={studioLogo} />
         </div>

@@ -5,6 +5,7 @@ import {notFound} from "next/navigation";
 import {routing} from "@/i18n/routing";
 import {siteUrl} from "@/lib/seo";
 import {AnalyticsConsent} from "@/components/AnalyticsConsent";
+import {ScrollReveal} from "@/components/ScrollReveal";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,12 +18,12 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
-      {url: "/favicon.ico", sizes: "any"},
-      {url: "/favicons/favicon-16x16.png", type: "image/png", sizes: "16x16"},
-      {url: "/favicons/favicon-32x32.png", type: "image/png", sizes: "32x32"},
+      {url: "/favicon.ico?v=3", sizes: "any"},
+      {url: "/favicons/favicon-16x16.png?v=3", type: "image/png", sizes: "16x16"},
+      {url: "/favicons/favicon-32x32.png?v=3", type: "image/png", sizes: "32x32"},
     ],
     apple: [
-      {url: "/favicons/apple-touch-icon.png", type: "image/png", sizes: "180x180"},
+      {url: "/favicons/apple-touch-icon.png?v=3", type: "image/png", sizes: "180x180"},
     ],
   },
   verification: {
@@ -59,7 +60,7 @@ export default async function LocaleLayout({
         logo: `${siteUrl}/favicons/android-chrome-512x512.png`,
         email: "info@vancoilliegroup.be",
         telephone: "+32499873892",
-        description: "A family of digital companies building technology that moves people forward.",
+        description: "An independent Belgian maker behind personal IT help, websites for small independent businesses and useful digital products for everyone.",
         areaServed: ["Belgium", "Europe"],
         sameAs: [
           "https://www.instagram.com/vancoilliestudio/",
@@ -88,6 +89,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <AnalyticsConsent />
+          <ScrollReveal />
         </NextIntlClientProvider>
       </body>
     </html>

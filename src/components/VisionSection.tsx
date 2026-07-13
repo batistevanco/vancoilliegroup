@@ -4,7 +4,7 @@ import staircaseImage from "@/IMAGES/StairCaseSection05-optimized.jpg";
 
 const principles = ["people", "longterm", "excellence", "together"] as const;
 const values = ["integrity", "accountability", "innovation", "respect", "impact"] as const;
-const facts = ["founded", "companies", "experts", "projects", "vision"] as const;
+const facts = ["founded", "maker", "initiatives", "apps", "studio", "vision"] as const;
 
 function ValueIcon({name}: {name: typeof values[number]}) {
   const p = {fill:"none", stroke:"currentColor", strokeWidth:1.3, strokeLinecap:"round" as const, strokeLinejoin:"round" as const};
@@ -21,13 +21,13 @@ export function VisionSection() {
     <section id="vision" className="vision-section" aria-labelledby="vision-title">
       <div className="vision-main">
         <div className="vision-content">
-          <div className="vision-copy">
+          <div className="vision-copy reveal">
             <p className="section-kicker">{t("kicker")}</p>
             <h2 id="vision-title">{t("title1")}<br />{t("title2")}<br /><span>{t("title_highlight")}</span></h2>
             <p>{t("intro")}</p>
             <Link className="section-text-link" href="/philosophy">{t("philosophy_link")} <span aria-hidden="true">↗</span></Link>
           </div>
-          <ol className="vision-principles">
+          <ol className="vision-principles reveal delay-1">
             {principles.map((principle, index) => <li key={principle}>
               <span>{String(index + 1).padStart(2, "0")}</span><i aria-hidden="true" />
               <div><h3>{t(`principles.${principle}.title`)}</h3><p>{t(`principles.${principle}.description`)}</p></div>
@@ -35,17 +35,17 @@ export function VisionSection() {
           </ol>
         </div>
         <div className="vision-image" role="img" aria-label={t("image_alt")} style={{backgroundImage: `url(${staircaseImage.src})`}}>
-          <blockquote><b aria-hidden="true">“</b><p>{t("quote")}</p><i aria-hidden="true"/><cite>VANCOILLIE GROUP</cite></blockquote>
+          <blockquote className="reveal delay-2"><b aria-hidden="true">“</b><p>{t("quote")}</p><i aria-hidden="true"/><cite>VANCOILLIE GROUP</cite></blockquote>
         </div>
       </div>
 
-      <div id="values" className="values-strip">
+      <div id="values" className="values-strip reveal">
         <p className="section-kicker">{t("values_kicker")}</p>
         <div className="values-grid">
           {values.map(value => <article key={value}><ValueIcon name={value}/><h3>{t(`values.${value}.title`)}</h3><p>{t(`values.${value}.description`)}</p></article>)}
         </div>
       </div>
-      <dl className="vision-facts">
+      <dl className="vision-facts reveal delay-1">
         {facts.map(fact => <div key={fact}><dt>{t(`facts.${fact}.value`)}</dt><dd>{t(`facts.${fact}.label`)}</dd></div>)}
       </dl>
     </section>
