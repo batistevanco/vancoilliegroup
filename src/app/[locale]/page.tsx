@@ -28,12 +28,12 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 export default function HomePage() {
   const t = useTranslations("Hero");
   return (<>
+    <Navbar />
     <main className="hero-page">
       <div className="hero-background" aria-hidden="true">
         <Image src={backgroundImage} alt="" fill priority quality={75} sizes="100vw" />
       </div>
       <div className="hero-wash" aria-hidden="true" />
-      <Navbar />
 
       <section className="hero-content" aria-labelledby="hero-title">
         <div className="hero-copy">

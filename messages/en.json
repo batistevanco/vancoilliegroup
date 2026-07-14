@@ -14,11 +14,13 @@
     "studio": "Vancoillie Studio",
     "expertise": "Expertise",
     "work": "Work",
+    "about": "About me",
     "insights": "Insights",
     "contact": "Contact",
     "get_in_touch": "Get in touch"
   },
   "DetailPage": {
+    "view_apps": "VIEW OUR APPS",
     "kicker": "EXPERTISE",
     "contact": "DISCUSS YOUR PROJECT",
     "visit_studio": "VISIT VANCOILLIE STUDIO",
@@ -45,6 +47,7 @@
   },
   "Philosophy": {
     "kicker": "OUR PHILOSOPHY",
+    "about_link": "Read my personal story",
     "principles_kicker": "WHAT WE STAND FOR",
     "principles_title": "Principles that guide us.",
     "values_title": "Values that connect us.",
@@ -54,8 +57,50 @@
     "kicker": "OUR APPROACH TO GROWTH",
     "title1": "Growth with a",
     "title_highlight": "clear direction.",
+    "about_link": "Read my personal story",
     "pillars_kicker": "HOW WE KEEP BUILDING",
     "pillars_title": "Globally connected. Locally committed.",
+    "metrics_kicker": "MILESTONES & NUMBERS",
+    "metrics_title": "Impact in numbers",
+    "strategy_kicker": "STRATEGY",
+    "strategy_title": "Our phases of growth",
+    "strategy": {
+      "phase1": {
+        "num": "Phase 01",
+        "title": "Local Foundation",
+        "desc": "We start locally with Vancoillie IT Hulp and Vancoillie Studio. By gathering direct feedback from small businesses and users, we learn what truly works and build a solid, reliable foundation."
+      },
+      "phase2": {
+        "num": "Phase 02",
+        "title": "Digital Scalability",
+        "desc": "With our custom apps like AbboBuddy and StockBuddy, we scale digitally to a global audience. We focus on lightweight, value-first software that is useful anywhere."
+      },
+      "phase3": {
+        "num": "Phase 03",
+        "title": "Collaborative Growth",
+        "desc": "In the future, we will expand by collaborating with selected freelancers and partners who share our passion for simplicity. This increases our impact while maintaining independence."
+      }
+    },
+    "faq_kicker": "STRATEGIC FAQ",
+    "faq_title": "Questions about our direction",
+    "faq": {
+      "q1": {
+        "question": "How do you balance local IT help with global software?",
+        "answer": "Local IT help keeps me grounded; I see firsthand what tech problems real people encounter daily. Global software allows me to translate those insights into simple, useful apps for a worldwide audience. The two reinforce each other."
+      },
+      "q2": {
+        "question": "Why choose independent growth over venture capital?",
+        "answer": "Building independently ensures complete control over product quality and direction. Without investor pressure to maximize short-term profits, we can prioritize the user experience and build software that remains honest and focused on the long run."
+      },
+      "q3": {
+        "question": "What is the ultimate goal of Vancoillie Group?",
+        "answer": "The goal is to create a trusted network of simple, useful digital solutions. We want to demonstrate that a small, independent organization can make a global impact with software built with genuine care for the end user."
+      }
+    },
+    "vision_kicker": "OUR FUTURE",
+    "vision_title": "Sustainable scaling",
+    "vision_para1": "For us, growth is not just about getting bigger. It means building better solutions, refining processes, and safeguarding our independence. We believe software and services are best delivered with personal attention and care.",
+    "vision_para2": "By starting locally and scaling step-by-step, we lay a solid foundation for every initiative. Whether it's home IT support or consumer apps downloaded worldwide — quality and personal contact remain at the core.",
     "contact": "DISCUSS YOUR AMBITION"
   },
   "Legal": {
@@ -116,6 +161,7 @@
     "title_line2": "made visible.",
     "intro": "These are apps and websites I work on myself. The apps are for anyone who finds them useful; through Vancoillie Studio I build websites for small independent businesses.",
     "view_all": "VIEW VANCOILLIE STUDIO",
+    "view_apps": "VIEW ALL MY APPS",
     "view_case": "VIEW CASE",
     "abbobuddy": {"label":"DIGITAL PRODUCT","title":"AbboBuddy","description":"A smart and simple way to manage all your subscriptions in one place.","image_alt":"AbboBuddy subscription app displayed on a smartphone"},
     "website": {"label":"WEBSITES BY VANCOILLIE STUDIO","title":"A website that fits you.","description":"Through Vancoillie Studio, I create clear, professional websites for small independent businesses starting online.","cta":"VIEW VANCOILLIE STUDIO","image_alt":"A professional website by Vancoillie Studio displayed on a laptop"},
@@ -178,7 +224,8 @@
       "founded": {"value": "2024", "label": "Founded"},
       "maker": {"value": "1", "label": "Independent maker"},
       "initiatives": {"value": "2", "label": "Initiatives"},
-      "availability": {"value": "Open", "label": "Apps for everyone"},
+      "apps": {"value": "Open", "label": "Apps for everyone"},
+      "studio": {"value": "Studio", "label": "Websites for small businesses"},
       "vision": {"value": "1", "label": "Clear direction"}
     }
   },
@@ -192,12 +239,12 @@
       "growth":{"title":"Step by step","description":"I expand my reach without losing simplicity, care or honesty."}
     },
     "metrics": {
-      "countries":{"value":"15+","label":"Countries we’ve worked in"},"partners":{"value":"30+","label":"International partners"},"projects":{"value":"120+","label":"Projects with global impact"},"satisfaction":{"value":"98%","label":"Client satisfaction worldwide"}
+      "clients":{"value":"75+","label":"Satisfied clients"},"downloads":{"value":"Hundreds","label":"App downloads"},"satisfaction":{"value":"98%","label":"Client satisfaction"},"maker":{"value":"1","label":"Independent developer"},"initiatives":{"value":"2","label":"Core initiatives"}
     },
     "quote":"Technology should remove barriers and give people room to move forward on their own. That is what drives me.","trusted_by":"MY INITIATIVES"
   },
   "Final": {
-    "kicker":"07 / LET’S CONNECT","title1":"Ready for","title2":"something new?","intro":"Do you have a question about IT help, a website for your independent business, or one of my apps? I would love to hear from you.","start":"Send a message","work":"View my work",
+    "kicker":"07 / LET’S CONNECT","title1":"Ready for","title2":"something new","intro":"Do you have a question about IT help, a website for your independent business, or one of my apps? I would love to hear from you.","start":"Send a message","work":"View my work",
     "connect_kicker":"CONTACT","connect_title1":"I’d love to hear","connect_title2":"from you.","connect_intro":"Choose the way that works best for you.",
     "contacts":{"email":{"title":"Email me","value":"info@vancoilliegroup.be"},"call":{"title":"Call me","value":"+32 499 87 38 92"},"visit":{"title":"Based in","value":"Roeselare, Belgium"},"meeting":{"title":"Schedule a chat","value":"Pick a time that suits you"}},
     "brand_description":"An independent maker behind IT help, websites for small independent businesses and useful digital products.","group_title":"ABOUT","expertise_title":"WHAT I MAKE","insights_title":"INSIGHTS","follow_title":"FOLLOW ME",
@@ -229,7 +276,62 @@
     "filter_all": "All",
     "filter_ithulp": "Vancoillie IT Hulp",
     "filter_studio": "Vancoillie Studio",
+    "filter_group": "Vancoillie Group",
     "read_more": "Read article",
+    "back": "Back to articles",
+    "visit_link": "OPEN LINK",
     "empty": "No articles found at the moment."
+  },
+  "AppsPage": {
+    "kicker": "VANCOILLIE STUDIO / APPS",
+    "title1": "Our own apps for",
+    "title2": "everyone.",
+    "intro": "Manage your subscriptions, groceries, expenses, and more with our clear and simple apps. Designed with attention to simplicity and peace.",
+    "back": "← BACK TO HOME",
+    "view_app": "View app"
+  },
+  "AboutPage": {
+    "kicker": "ABOUT ME",
+    "title1": "One maker,",
+    "title2": "endless ideas.",
+    "intro": "My name is Batiste Vancoillie. Vancoillie Group is my independent platform for developing software, offering IT help, and building websites. Here you can find the story behind my work and the path I am on.",
+    "story_kicker": "MY STORY",
+    "story_title": "Why I build this",
+    "story_para1": "I have always been fascinated by the way technology can simplify our daily lives. Vancoillie Group was born out of the belief that software doesn't need to be complex to be valuable. As an independent developer, I focus fully on crafting projects that solve real needs.",
+    "story_para2": "Today, Vancoillie Group is the launchpad for my core initiatives: Vancoillie IT Hulp (understandable IT help for everyone) and Vancoillie Studio (clear, affordable websites for small businesses and custom consumer apps). Every product, website, and support service is designed, coded, and maintained by me personally.",
+    "timeline_kicker": "ROADMAP IN PROGRESS",
+    "timeline_title": "My journey & future",
+    "timeline": {
+      "past": {
+        "label": "What has been built",
+        "event1": {
+          "title": "First apps launched",
+          "desc": "Developed and published AbboBuddy and Mijn IT Hulp in the App Store, focusing on clean, distraction-free iOS experiences."
+        },
+        "event2": {
+          "title": "Vancoillie IT Hulp & Studio",
+          "desc": "Launched my two main initiatives to offer professional IT support and custom-built websites."
+        }
+      },
+      "present": {
+        "label": "What I'm working on now",
+        "event": {
+          "title": "StockBuddy & Platform updates",
+          "desc": "Active development of StockBuddy (investment tracker) and optimizing performance and SEO across client websites."
+        }
+      },
+      "future": {
+        "label": "Where I want to go",
+        "event": {
+          "title": "Sustainable growth",
+          "desc": "Expanding the app portfolio, reaching more small businesses with Studio, and growing my independent reach step by step."
+        }
+      }
+    },
+    "links_title": "Find me online",
+    "portfolio_label": "My Portfolio",
+    "github_label": "My GitHub",
+    "linkedin_label": "My LinkedIn",
+    "back": "← BACK TO HOME"
   }
 }

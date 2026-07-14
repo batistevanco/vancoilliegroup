@@ -1,0 +1,9 @@
+import {Navbar} from "@/components/Navbar";
+import {FinalSection} from "@/components/FinalSection";
+import {pageMetadata} from "@/lib/seo";
+import {websitePackages} from "@/lib/studio-content";
+import {Link} from "@/i18n/navigation";
+
+export function generateStaticParams() { return [{locale:"nl"},{locale:"en"}]; }
+export async function generateMetadata({params}: {params: Promise<{locale:string}>}) { const {locale} = await params; return pageMetadata({locale,path:"/websites",title:"Websites voor zelfstandigen",description:"Heldere, snelle websites voor kleine zelfstandigen via Vancoillie Studio."}); }
+export default function WebsitesPage() { return <div className="studio-page-root"><Navbar /><main className="studio-detail websites-page"><Link href="/#work" className="section-text-link">← TERUG NAAR MIJN WERK</Link><section className="websites-hero"><p className="section-kicker">VANCOILLIE STUDIO / WEBSITES</p><h1>Een website die<br/><span>bij je past.</span></h1><p>Via Vancoillie Studio maak ik snelle, heldere websites voor kleine zelfstandigen. Geen groot bureau en geen ingewikkelde systemen — gewoon een professionele basis die werkt.</p><a className="dark-button" href="https://www.vancoilliestudio.be/websites/">Bespreek je website <span>↗</span></a></section><section className="website-packages"><header><p className="section-kicker">DUIDELIJKE STARTPAKKETTEN</p><h2>Websitepakketten.</h2><p>Hosting en domeinnaam kosten anders €150 apart.</p></header><div>{websitePackages.map((plan) => <article key={plan.name} className={plan.featured ? "featured" : ""}>{plan.featured && <b>AANBEVOLEN</b>}<h3>{plan.name}</h3><strong>{plan.price}</strong><small>eenmalig</small><p>{plan.description}</p><ul>{plan.features.map((feature) => <li key={feature}>✓ {feature}</li>)}</ul><a href="mailto:info@vancoilliegroup.be?subject=Websitepakket%20" className="text-button">Kies dit pakket <span>↗</span></a></article>)}</div></section></main><FinalSection /></div>; }

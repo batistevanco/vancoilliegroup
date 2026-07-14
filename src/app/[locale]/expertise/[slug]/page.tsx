@@ -108,7 +108,16 @@ export default async function ExpertiseDetailPage({params}: {params: Promise<{sl
           <ol>{processSteps.map((step, index) => <li key={step}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{detail(`process.${step}.title`)}</h3><p>{detail(`process.${step}.text`)}</p></div></li>)}</ol>
         </section>
         <div className="detail-actions">
-          <a href={destination.url} className="dark-button" target="_blank" rel="noreferrer"><span>{detail(destination.label)}</span><span aria-hidden="true">↗</span></a>
+          {(slug === "products" || slug === "software") && (
+            <Link href="/apps" className="dark-button">
+              <span>{detail("view_apps")}</span>
+              <span aria-hidden="true">↗</span>
+            </Link>
+          )}
+          <a href={destination.url} className={slug === "products" || slug === "software" ? "text-button" : "dark-button"} target="_blank" rel="noreferrer">
+            <span>{detail(destination.label)}</span>
+            <span aria-hidden="true">↗</span>
+          </a>
           <Link href="/#expertise" className="text-button"><span>{detail("back")}</span><span aria-hidden="true">←</span></Link>
         </div>
       </section>

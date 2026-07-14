@@ -3,6 +3,7 @@
 import {useState} from "react";
 import {useTranslations} from "next-intl";
 import Image from "next/image";
+import {Link} from "@/i18n/navigation";
 
 export interface NewsArticle {
   id: number;
@@ -22,7 +23,7 @@ interface NewsGridProps {
 
 export function NewsGrid({initialArticles, locale}: NewsGridProps) {
   const t = useTranslations("News");
-  const [activeFilter, setActiveFilter] = useState<"all" | 8 | 15>("all");
+  const [activeFilter, setActiveFilter] = useState<"all" | 8 | 15 | 16>("all");
 
   const filteredArticles = initialArticles.filter((article) => {
     if (activeFilter === "all") return true;
@@ -66,6 +67,13 @@ export function NewsGrid({initialArticles, locale}: NewsGridProps) {
         >
           {t("filter_studio")}
         </button>
+        <button
+          type="button"
+          className={`filter-pill ${activeFilter === 16 ? "active" : ""}`}
+          onClick={() => setActiveFilter(16)}
+        >
+          {t("filter_group")}
+        </button>
       </div>
 
       {filteredArticles.length === 0 ? (
@@ -75,7 +83,7 @@ export function NewsGrid({initialArticles, locale}: NewsGridProps) {
       ) : (
         <div className="news-grid">
           {filteredArticles.map((article) => {
-            const isItHulp = article.categoryID === 8;
+            const badgeClass = article.categoryID === 8 ? "badge-ithulp" : article.categoryID === 16 ? "badge-group" : "badge-studio";
             const cardContent = <>
               <div className="news-card-image-wrapper">
                 <Image
@@ -85,7 +93,7 @@ export function NewsGrid({initialArticles, locale}: NewsGridProps) {
                   sizes="(max-width: 560px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="news-card-image"
                 />
-                <span className={`news-card-badge ${isItHulp ? "badge-ithulp" : "badge-studio"}`}>
+                <span className={`news-card-badge ${badgeClass}`}>
                   {article.categoryName}
                 </span>
               </div>
@@ -93,13 +101,13 @@ export function NewsGrid({initialArticles, locale}: NewsGridProps) {
                 <span className="news-card-date">{formatDate(article.date)}</span>
                 <h3 className="news-card-title">{article.title}</h3>
                 <p className="news-card-description">{article.description}</p>
-                {article.fullURL && <span className="news-card-cta">{t("read_more")} <span aria-hidden="true">↗</span></span>}
+                <span className="news-card-cta">{t("read_more")} <span aria-hidden="true">↗</span></span>
               </div>
             </>;
 
             return (
               <article key={article.id} className="news-card">
-                {article.fullURL ? <a href={article.fullURL} target="_blank" rel="noopener noreferrer" className="news-card-link">{cardContent}</a> : <div className="news-card-static">{cardContent}</div>}
+                <Link href={`/news/${article.id}`} className="news-card-link">{cardContent}</Link>
               </article>
             );
           })}

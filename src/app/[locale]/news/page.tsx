@@ -28,23 +28,28 @@ export default async function NewsPage({params}: {params: Promise<{locale: strin
   let articles: NewsArticle[] = [];
 
   try {
-    const [res8, res15] = await Promise.all([
+    const [res8, res15, res16] = await Promise.all([
       fetch(`https://vancoillieithulp.be/news/api.php?action=articles&lang=${locale}&category_id=8`, {
         next: {revalidate: 60},
       }),
       fetch(`https://vancoillieithulp.be/news/api.php?action=articles&lang=${locale}&category_id=15`, {
         next: {revalidate: 60},
       }),
+      fetch(`https://vancoillieithulp.be/news/api.php?action=articles&lang=${locale}&category_id=16`, {
+        next: {revalidate: 60},
+      }),
     ]);
 
-    if (res8.ok && res15.ok) {
+    if (res8.ok && res15.ok && res16.ok) {
       const data8: unknown = await res8.json();
       const data15: unknown = await res15.json();
+      const data16: unknown = await res16.json();
       
       const arr8 = Array.isArray(data8) ? data8 as NewsArticle[] : [];
       const arr15 = Array.isArray(data15) ? data15 as NewsArticle[] : [];
+      const arr16 = Array.isArray(data16) ? data16 as NewsArticle[] : [];
 
-      articles = [...arr8, ...arr15].sort(
+      articles = [...arr8, ...arr15, ...arr16].sort(
         (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
       );
     }

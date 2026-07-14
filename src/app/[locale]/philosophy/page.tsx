@@ -30,6 +30,12 @@ export default async function PhilosophyPage() {
         <p className="section-kicker">{page("kicker")}</p>
         <h1 id="philosophy-title">{t("title1")}<br />{t("title2")}<br /><span>{t("title_highlight")}</span></h1>
         <p>{t("intro")}</p>
+        <div style={{ marginBlock: "18px 24px" }}>
+          <Link href="/about" className="text-button">
+            <span>{page("about_link")}</span>
+            <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
         <blockquote>“{t("quote")}”</blockquote>
       </section>
       <section className="philosophy-principles" aria-labelledby="principles-title">

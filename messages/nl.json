@@ -14,11 +14,13 @@
     "studio": "Vancoillie Studio",
     "expertise": "Expertise",
     "work": "Werk",
+    "about": "Over mij",
     "insights": "Inzichten",
     "contact": "Contact",
     "get_in_touch": "Neem contact op"
   },
   "DetailPage": {
+    "view_apps": "BEKIJK EIGEN APPS",
     "kicker": "EXPERTISE",
     "contact": "BESPREEK JE PROJECT",
     "visit_studio": "BEZOEK VANCOILLIE STUDIO",
@@ -45,6 +47,7 @@
   },
   "Philosophy": {
     "kicker": "ONZE FILOSOFIE",
+    "about_link": "Lees mijn persoonlijke verhaal",
     "principles_kicker": "WAAR WE VOOR STAAN",
     "principles_title": "Principes die richting geven.",
     "values_title": "Waarden die ons verbinden.",
@@ -54,8 +57,50 @@
     "kicker": "ONZE AANPAK VOOR GROEI",
     "title1": "Groei met een",
     "title_highlight": "duidelijke richting.",
+    "about_link": "Lees mijn persoonlijke verhaal",
     "pillars_kicker": "ZO BOUWEN WE VERDER",
     "pillars_title": "Wereldwijd verbonden. Lokaal betrokken.",
+    "metrics_kicker": "MIJLPALEN & CIJFERS",
+    "metrics_title": "Impact in getallen",
+    "strategy_kicker": "STRATEGIE",
+    "strategy_title": "Onze fasen van groei",
+    "strategy": {
+      "phase1": {
+        "num": "Fase 01",
+        "title": "Lokale fundering",
+        "desc": "We starten lokaal met Vancoillie IT Hulp en Vancoillie Studio. Door directe feedback van kleine zelfstandigen en consumenten leren we wat echt werkt en bouwen we een solide, betrouwbare basis."
+      },
+      "phase2": {
+        "num": "Fase 02",
+        "title": "Digitale schaalbaarheid",
+        "desc": "Met onze eigen apps zoals AbboBuddy en StockBuddy schalen we digitaal op naar een wereldwijd publiek. We focussen op software die overal bruikbaar is, zonder complexe overhead."
+      },
+      "phase3": {
+        "num": "Fase 03",
+        "title": "Samenwerkingsmodel",
+        "desc": "In de toekomst breiden we uit door samen te werken met freelancers en partners die dezelfde passie voor eenvoud delen. Zo vergroten we onze impact terwijl we onafhankelijk blijven."
+      }
+    },
+    "faq_kicker": "STRATEGISCHE VRAGEN",
+    "faq_title": "Vragen over onze richting",
+    "faq": {
+      "q1": {
+        "question": "Hoe balanceer je lokale IT-hulp met wereldwijde software?",
+        "answer": "Lokale IT-hulp houdt me met beide benen op de grond: ik zie direct waar mensen tegenaan lopen bij technologie. Wereldwijde software stelt me in staat om die opgedane inzichten te vertalen naar handige apps voor een miljoenenpubliek. De twee werelden versterken elkaar continu."
+      },
+      "q2": {
+        "question": "Waarom kies je voor onafhankelijke groei in plaats van extern kapitaal?",
+        "answer": "Door onafhankelijk te bouwen behoud ik de volledige controle over de kwaliteit en de richting van de producten. Er is geen druk van investeerders om winst te maximaliseren ten koste van de gebruikerservaring. Dit zorgt voor software die eerlijk en gefocust blijft op de lange termijn."
+      },
+      "q3": {
+        "question": "Wat is het einddoel van Vancoillie Group?",
+        "answer": "Het doel is om een betrouwbaar netwerk van nuttige, heldere digitale oplossingen te creëren. We willen laten zien dat je ook als kleine, onafhankelijke organisatie een wereldwijde impact kunt maken met software die gebouwd is met oprechte zorg voor de eindgebruiker."
+      }
+    },
+    "vision_kicker": "ONZE TOEKOMST",
+    "vision_title": "Duurzaam schalen",
+    "vision_para1": "Groeien betekent voor ons niet zomaar groter worden. Het betekent betere oplossingen bouwen, processen verfijnen en onze onafhankelijkheid waarborgen. We geloven dat software en service het best tot hun recht komen wanneer ze met persoonlijke aandacht en zorg worden beheerd.",
+    "vision_para2": "Door lokaal te starten en stap voor stap te schalen, kunnen we een solide basis leggen voor elk initiatief. Of het nu gaat om IT-ondersteuning aan huis of consumentenapps die wereldwijd worden gedownload — de kwaliteit en het persoonlijke contact blijven centraal staan.",
     "contact": "BESPREEK JE AMBITIE"
   },
   "Legal": {
@@ -116,6 +161,7 @@
     "title_line2": "zichtbaar gemaakt.",
     "intro": "Dit zijn apps en websites waar ik zelf aan werk. De apps maak ik voor iedereen die ze handig vindt; via Vancoillie Studio bouw ik websites voor kleine zelfstandigen.",
     "view_all": "BEKIJK VANCOILLIE STUDIO",
+    "view_apps": "BEKIJK AL MIJN APPS",
     "view_case": "BEKIJK CASE",
     "abbobuddy": {"label":"DIGITAAL PRODUCT","title":"AbboBuddy","description":"Een slimme en eenvoudige manier om al je abonnementen op één plek te beheren.","image_alt":"AbboBuddy-abonnementenapp op een smartphone"},
     "website": {"label":"WEBSITES DOOR VANCOILLIE STUDIO","title":"Een website die bij je past.","description":"Via Vancoillie Studio maak ik heldere, professionele websites voor kleine zelfstandigen die online goed willen starten.","cta":"BEKIJK VANCOILLIE STUDIO","image_alt":"Een professionele website van Vancoillie Studio weergegeven op een laptop"},
@@ -193,12 +239,12 @@
       "growth":{"title":"Stap voor stap","description":"Ik vergroot mijn bereik zonder de eenvoud, zorg en eerlijkheid te verliezen."}
     },
     "metrics": {
-      "countries":{"value":"15+","label":"Landen waarin we werkten"},"partners":{"value":"30+","label":"Internationale partners"},"projects":{"value":"120+","label":"Projecten met wereldwijde impact"},"satisfaction":{"value":"98%","label":"Klanttevredenheid wereldwijd"}
+      "clients":{"value":"75+","label":"Tevreden klanten"},"downloads":{"value":"Honderden","label":"App downloads"},"satisfaction":{"value":"98%","label":"Klantentevredenheid"},"maker":{"value":"1","label":"Onafhankelijke maker"},"initiatives":{"value":"2","label":"Eigen initiatieven"}
     },
     "quote":"Technologie moet drempels wegnemen en mensen de ruimte geven om zelf verder te kunnen. Dat is mijn drijfveer.","trusted_by":"MIJN INITIATIEVEN"
   },
   "Final": {
-    "kicker":"07 / LATEN WE KENNISMAKEN","title1":"Klaar voor","title2":"iets nieuws?","intro":"Heb je een vraag over IT-hulp, een website voor je zelfstandige zaak of één van mijn apps? Ik hoor graag van je.","start":"Stuur een bericht","work":"Bekijk mijn werk",
+    "kicker":"07 / LATEN WE KENNISMAKEN","title1":"Klaar voor","title2":"iets nieuws","intro":"Heb je een vraag over IT-hulp, een website voor je zelfstandige zaak of één van mijn apps? Ik hoor graag van je.","start":"Stuur een bericht","work":"Bekijk mijn werk",
     "connect_kicker":"CONTACT","connect_title1":"Ik hoor graag","connect_title2":"van je.","connect_intro":"Kies de manier die voor jou het beste werkt.",
     "contacts":{"email":{"title":"Mail mij","value":"info@vancoilliegroup.be"},"call":{"title":"Bel mij","value":"+32 499 87 38 92"},"visit":{"title":"Vanuit","value":"Roeselare, België"},"meeting":{"title":"Plan een gesprek","value":"Kies een moment dat past"}},
     "brand_description":"Een onafhankelijke maker achter IT-hulp, websites voor kleine zelfstandigen en eigen digitale producten.","group_title":"OVER","expertise_title":"WAT IK MAAK","insights_title":"INZICHTEN","follow_title":"VOLG MIJ",
@@ -230,7 +276,62 @@
     "filter_all": "Alles",
     "filter_ithulp": "Vancoillie IT Hulp",
     "filter_studio": "Vancoillie Studio",
+    "filter_group": "Vancoillie Group",
     "read_more": "Lees artikel",
+    "back": "Terug naar artikelen",
+    "visit_link": "BEKIJK VERWIJZING",
     "empty": "Momenteel geen artikelen gevonden."
+  },
+  "AppsPage": {
+    "kicker": "VANCOILLIE STUDIO / APPS",
+    "title1": "Eigen apps voor",
+    "title2": "iedereen.",
+    "intro": "Beheer je abonnementen, boodschappen, uitgaven en meer met onze heldere en eenvoudige apps. Ontworpen met aandacht voor eenvoud en rust.",
+    "back": "← TERUG NAAR HOME",
+    "view_app": "Bekijk app"
+  },
+  "AboutPage": {
+    "kicker": "OVER MIJ",
+    "title1": "Eén maker,",
+    "title2": "eindeloze ideeën.",
+    "intro": "Mijn naam is Batiste Vancoillie. Vancoillie Group is mijn onafhankelijke platform waaruit ik software ontwikkel, IT-hulp bied en websites bouw. Hier vind je het verhaal achter mijn werk en de weg die ik bewandel.",
+    "story_kicker": "MIJN VERHAAL",
+    "story_title": "Waarom ik dit bouw",
+    "story_para1": "Ik ben altijd gefascineerd geweest door de manier waarop technologie ons dagelijks leven kan vereenvoudigen. Vancoillie Group is ontstaan uit de overtuiging dat software niet ingewikkeld hoeft te zijn om waardevol te zijn. Als onafhankelijke maker bouw ik met volledige focus en zorg aan projecten die échte behoeften oplossen.",
+    "story_para2": "Vandaag de dag is de Vancoillie Group het vertrekpunt voor mijn belangrijkste initiatieven: Vancoillie IT Hulp (begrijpelijke IT-hulp voor iedereen) en Vancoillie Studio (heldere, betaalbare websites voor zelfstandigen en eigen consumentenapps). Elk product, elke website en elke hulpservice wordt door mijzelf ontworpen, geprogrammeerd en onderhouden.",
+    "timeline_kicker": "TIJDLIJN IN OPBOUW",
+    "timeline_title": "Mijn weg & toekomst",
+    "timeline": {
+      "past": {
+        "label": "Wat is gebouwd",
+        "event1": {
+          "title": "Eerste apps gelanceerd",
+          "desc": "Ontwikkeling en publicatie van AbboBuddy en Mijn IT Hulp in de App Store, met focus op rustige, heldere iOS-ervaringen."
+        },
+        "event2": {
+          "title": "Vancoillie IT Hulp & Studio",
+          "desc": "Lancering van mijn twee hoofdinitiatieven om professionele IT-ondersteuning en op maat gemaakte websites te bieden."
+        }
+      },
+      "present": {
+        "label": "Waar ik nu aan werk",
+        "event": {
+          "title": "StockBuddy & Platform updates",
+          "desc": "Actieve ontwikkeling van StockBuddy (investeringstracker) en het optimaliseren van de laadsnelheid en SEO van alle klantwebsites."
+        }
+      },
+      "future": {
+        "label": "Waar ik naartoe wil",
+        "event": {
+          "title": "Duurzame groei",
+          "desc": "Het uitbreiden van het app-portfolio, het bereiken van meer kleine zelfstandigen met Studio, en stappen zetten naar een groter onafhankelijk bereik."
+        }
+      }
+    },
+    "links_title": "Vind mij online",
+    "portfolio_label": "Mijn Portfolio",
+    "github_label": "Mijn GitHub",
+    "linkedin_label": "Mijn LinkedIn",
+    "back": "← TERUG NAAR HOME"
   }
 }

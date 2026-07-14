@@ -1,5 +1,6 @@
 import Image, {type StaticImageData} from "next/image";
 import {useTranslations} from "next-intl";
+import {Link} from "@/i18n/navigation";
 import abboBuddyImage from "@/IMAGES/AbboBuddyPromoBovenAan-optimized.jpg";
 import websiteImage from "@/IMAGES/WebsiteBuildingPromo.png";
 import newsImage from "@/IMAGES/VancoillieNewsPromoRechtsOnder-optimized.jpg";
@@ -16,6 +17,8 @@ type WorkCardProps = {
 };
 
 function WorkCard({image, imageAlt, label, title, description, cta, href, className}: WorkCardProps) {
+  const isExternal = href.startsWith("http");
+
   return (
     <article className={`work-card ${className}`}>
       <Image src={image} alt={imageAlt} fill sizes="(max-width: 760px) 100vw, 84vw" quality={75} />
@@ -24,9 +27,15 @@ function WorkCard({image, imageAlt, label, title, description, cta, href, classN
         <p className="work-card-label">{label}</p>
         <h3>{title}</h3>
         <p className="work-card-description">{description}</p>
-        <a className="work-card-link" href={href} target="_blank" rel="noreferrer">
-          <span>{cta}</span><span aria-hidden="true">↗</span>
-        </a>
+        {isExternal ? (
+          <a className="work-card-link" href={href} target="_blank" rel="noreferrer">
+            <span>{cta}</span><span aria-hidden="true">↗</span>
+          </a>
+        ) : (
+          <Link className="work-card-link" href={href}>
+            <span>{cta}</span><span aria-hidden="true">↗</span>
+          </Link>
+        )}
       </div>
     </article>
   );
@@ -46,7 +55,10 @@ export function SelectedWorkSection() {
           </div>
           <div className="selected-work-intro">
             <p>{t("intro")}</p>
-            <a href="https://www.vancoilliestudio.be/" target="_blank" rel="noreferrer"><span>{t("view_all")}</span><span aria-hidden="true">↗</span></a>
+            <div className="selected-work-links" style={{ display: "flex", flexDirection: "column", gap: "8px", marginTop: "24px" }}>
+              <Link href="/apps" style={{ marginTop: 0 }}><span>{t("view_apps")}</span><span aria-hidden="true">↗</span></Link>
+              <a href="https://www.vancoilliestudio.be/" target="_blank" rel="noreferrer" style={{ marginTop: 0 }}><span>{t("view_all")}</span><span aria-hidden="true">↗</span></a>
+            </div>
           </div>
         </header>
 
@@ -58,7 +70,7 @@ export function SelectedWorkSection() {
             title={t("abbobuddy.title")}
             description={t("abbobuddy.description")}
             cta={t("view_case")}
-            href="https://www.vancoilliestudio.be/abbo/"
+            href="/apps/abbo"
             className="work-card-featured work-card-dark work-card-abbobuddy"
           />
           <WorkCard
@@ -68,7 +80,7 @@ export function SelectedWorkSection() {
             title={t("website.title")}
             description={t("website.description")}
             cta={t("website.cta")}
-            href="https://www.vancoilliestudio.be/"
+            href="/websites"
             className="work-card-small work-card-light work-card-website"
           />
           <WorkCard
@@ -78,7 +90,7 @@ export function SelectedWorkSection() {
             title={t("news.title")}
             description={t("news.description")}
             cta={t("view_case")}
-            href="https://www.vancoilliestudio.be/news/"
+            href="/apps/vancoillie-news"
             className="work-card-small work-card-dark work-card-news"
           />
         </div>

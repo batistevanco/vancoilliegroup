@@ -68,7 +68,7 @@ export function FinalSection() {
           </div>
           <nav aria-label={t("group_title")}>
             <h3>{t("group_title")}</h3>
-            <Link href="/#companies">{t("group.about")}</Link>
+            <Link href="/about">{t("group.about")}</Link>
             <Link href="/#companies">{t("group.companies")}</Link>
             <Link href="/#contact">{t("group.contact")}</Link>
           </nav>

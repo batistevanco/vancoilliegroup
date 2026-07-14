@@ -16,6 +16,17 @@ export function Navbar() {
   const [mobileCompaniesOpen, setMobileCompaniesOpen] = useState(false);
   const companiesMenuRef = useRef<HTMLDivElement>(null);
 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll, {passive: true});
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   useEffect(() => {
     document.body.classList.toggle("nav-open", menuOpen);
     const close = (event: KeyboardEvent) => {
@@ -44,8 +55,10 @@ export function Navbar() {
     router.replace(pathname, {locale: locale === "en" ? "nl" : "en"});
   }
 
+  const isHomepage = pathname === "/";
+
   return (
-    <header className="hero-nav">
+    <header className={`hero-nav ${isHomepage ? "home-nav" : ""} ${scrolled ? "scrolled" : ""}`}>
       <Link href="/" className="brand-logo" aria-label="Vancoillie Group">
         <Image src={logo} alt="Vancoillie Group" priority sizes="230px" />
       </Link>
@@ -63,7 +76,7 @@ export function Navbar() {
         </div>
         <Link href="/#expertise">{t("expertise")}</Link>
         <Link href="/#work">{t("work")}</Link>
-        <a href="https://www.vancoilliestudio.be/news/" target="_blank" rel="noreferrer">{t("insights")}</a>
+        <Link href="/about">{t("about")}</Link>
         <Link href="/#contact">{t("contact")}</Link>
       </nav>
 
@@ -95,7 +108,7 @@ export function Navbar() {
         </div>
         <Link href="/#expertise" onClick={() => setMenuOpen(false)}>{t("expertise")}</Link>
         <Link href="/#work" onClick={() => setMenuOpen(false)}>{t("work")}</Link>
-        <a href="https://www.vancoilliestudio.be/news/" target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>{t("insights")}</a>
+        <Link href="/about" onClick={() => setMenuOpen(false)}>{t("about")}</Link>
         <Link href="/#contact" onClick={() => setMenuOpen(false)}>{t("contact")}</Link>
         <button type="button" onClick={switchLocale}>{locale === "en" ? "Nederlands" : "English"}</button>
       </nav>
