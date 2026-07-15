@@ -586,14 +586,49 @@ button { color:inherit; font:inherit; }
   .selected-work-shell { width:calc(100% - 32px); margin:0 auto; padding:0; }
   .selected-work-header h2 { font-size:42px; }
   .work-grid { grid-template-columns:1fr; }
-  .work-card-featured { grid-column:auto; height:455px; }
-  .work-card-small { height:390px; }
-  .work-card-copy,.work-card-small .work-card-copy { width:100%; padding:38px 28px 30px; }
-  .work-card-abbobuddy>img { object-position:61% center; }
-  .work-card-website>img { object-position:58% center; }
-  .work-card-news>img { object-position:54% center; }
-  .work-card-abbobuddy .work-card-shade,.work-card-news .work-card-shade { background:linear-gradient(180deg,rgba(7,8,12,.95) 0%,rgba(7,8,12,.72) 45%,rgba(7,8,12,.04) 100%); }
-  .work-card-website .work-card-shade { background:linear-gradient(180deg,rgba(247,247,246,.98) 0%,rgba(247,247,246,.84) 47%,rgba(247,247,246,.04) 100%); }
+  .work-card {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+  }
+  .work-card-featured {
+    grid-column: auto;
+  }
+  .work-card-small {
+    height: auto;
+  }
+  .work-card > img {
+    position: relative !important;
+    height: 220px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    z-index: 1 !important;
+    order: 2;
+  }
+  .work-card-copy, .work-card-small .work-card-copy {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 36px 28px 28px !important;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .work-card-link {
+    margin-top: 24px !important;
+  }
+  .work-card-abbobuddy {
+    background-color: #0c0e12;
+  }
+  .work-card-news {
+    background-color: #0c0e12;
+  }
+  .work-card-website {
+    background-color: #f7f7f6;
+  }
+  .work-card-shade {
+    display: none !important;
+  }
   .work-metrics { grid-template-columns:1fr 1fr; }
   .work-metrics>div { min-height:105px; border-bottom:1px solid rgba(20,24,32,.08); }
   .work-metrics>div:nth-child(even) { border-right:0; }
