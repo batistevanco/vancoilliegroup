@@ -269,6 +269,10 @@
     "accept":"Accepteren",
     "decline":"Weigeren"
   },
+  "Errors": {
+    "not_found": {"kicker":"404 / VERKEERDE RICHTING","title":"Deze pagina bestaat niet.","description":"De pagina die je zoekt is verplaatst, verwijderd of heeft nooit bestaan. Geen zorgen: je kunt altijd weer verder.","home":"Terug naar home","contact":"Neem contact op"},
+    "error": {"kicker":"ER GING IETS MIS","title":"Even opnieuw proberen.","description":"Er liep iets onverwachts fout. Probeer het opnieuw, of ga terug naar de homepagina.","retry":"Opnieuw proberen","home":"Terug naar home"}
+  },
   "News": {
     "kicker": "INZICHTEN & UPDATES",
     "title": "Artikelen & Nieuws",

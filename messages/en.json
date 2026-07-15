@@ -269,6 +269,10 @@
     "accept":"Accept",
     "decline":"Decline"
   },
+  "Errors": {
+    "not_found": {"kicker":"404 / WRONG TURN","title":"This page does not exist.","description":"The page you are looking for has moved, was removed, or never existed. No worries: you can always keep moving.","home":"Back to home","contact":"Get in touch"},
+    "error": {"kicker":"SOMETHING WENT WRONG","title":"Let’s try that again.","description":"Something unexpected happened. Try again, or return to the homepage.","retry":"Try again","home":"Back to home"}
+  },
   "News": {
     "kicker": "INSIGHTS & UPDATES",
     "title": "Articles & News",
