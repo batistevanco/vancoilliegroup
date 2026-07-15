@@ -1038,8 +1038,7 @@ button { color:inherit; font:inherit; }
     padding: 22px;
   }
   .app-image-wrap {
-    width: 130px;
-    align-self: center;
+    display: none;
   }
 }
 
